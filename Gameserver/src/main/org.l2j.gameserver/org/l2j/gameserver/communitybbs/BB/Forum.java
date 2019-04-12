@@ -17,8 +17,10 @@
 package org.l2j.gameserver.communitybbs.BB;
 
 import org.l2j.commons.database.DatabaseFactory;
+import org.l2j.commons.database.annotation.*;
 import org.l2j.gameserver.communitybbs.Manager.ForumsBBSManager;
 import org.l2j.gameserver.communitybbs.Manager.TopicBBSManager;
+import org.l2j.gameserver.data.database.dao.ForumDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -29,6 +31,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import static org.l2j.commons.database.DatabaseAccess.getDAO;
 
 
 public class Forum {
@@ -46,14 +50,30 @@ public class Forum {
     private static final Logger LOGGER = LoggerFactory.getLogger(Forum.class);
     private final List<Forum> _children;
     private final Map<Integer, Topic> _topic = new ConcurrentHashMap<>();
+
+    @Column("forum_id")
     private final int _forumId;
+    @Column("forum_parent")
     private final Forum _fParent;
+    @Column("forum_name")
     private String _forumName;
+    @Column("forum_type")
     private int _forumType;
+    @Column("forum_post")
     private int _forumPost;
+    @Column("forum_perm")
     private int _forumPerm;
+    @Column("forum_owner_id")
     private int _ownerID;
+
     private boolean _loaded = false;
+
+    //Construtor que eu fiz
+    public Forum() {
+        _children = null;
+        _forumId = 0;
+        _fParent = null;
+    }
 
     /**
      * Creates new instance of Forum. When you create new forum, use {@link org.l2j.gameserver.communitybbs.Manager.ForumsBBSManager# addForum(org.l2j.gameserver.communitybbs.BB.Forum)} to add forum to the forums manager.
@@ -88,54 +108,25 @@ public class Forum {
         _loaded = true;
     }
 
-    private void load() {
-        try (Connection con = DatabaseFactory.getInstance().getConnection();
-             PreparedStatement ps = con.prepareStatement("SELECT * FROM forums WHERE forum_id=?")) {
-            ps.setInt(1, _forumId);
-            try (ResultSet rs = ps.executeQuery()) {
-                if (rs.next()) {
-                    _forumName = rs.getString("forum_name");
-                    _forumPost = rs.getInt("forum_post");
-                    _forumType = rs.getInt("forum_type");
-                    _forumPerm = rs.getInt("forum_perm");
-                    _ownerID = rs.getInt("forum_owner_id");
-                }
-            }
-        } catch (Exception e) {
-            LOGGER.warn("Data error on Forum " + _forumId + " : " + e.getMessage(), e);
-        }
 
-        try (Connection con = DatabaseFactory.getInstance().getConnection();
-             PreparedStatement ps = con.prepareStatement("SELECT * FROM topic WHERE topic_forum_id=? ORDER BY topic_id DESC")) {
-            ps.setInt(1, _forumId);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    final Topic t = new Topic(Topic.ConstructorType.RESTORE, rs.getInt("topic_id"), rs.getInt("topic_forum_id"), rs.getString("topic_name"), rs.getLong("topic_date"), rs.getString("topic_ownername"), rs.getInt("topic_ownerid"), rs.getInt("topic_type"), rs.getInt("topic_reply"));
-                    _topic.put(t.getID(), t);
-                    if (t.getID() > TopicBBSManager.getInstance().getMaxID(this)) {
-                        TopicBBSManager.getInstance().setMaxID(t.getID(), this);
-                    }
-                }
+    private void load() {
+        getDAO(ForumDAO.class).findForumById(_forumId);
+
+
+        final Topic t = getDAO(ForumDAO.class).findTopicById(_forumId);
+        if (t != null) {
+            _topic.put(t.getID(), t);
+            if (t.getID() > TopicBBSManager.getInstance().getMaxID(this)) {
+                TopicBBSManager.getInstance().setMaxID(t.getID(), this);
             }
-        } catch (Exception e) {
-            LOGGER.warn("Data error on Forum " + _forumId + " : " + e.getMessage(), e);
         }
     }
 
     private void getChildren() {
-        try (Connection con = DatabaseFactory.getInstance().getConnection();
-             PreparedStatement ps = con.prepareStatement("SELECT forum_id FROM forums WHERE forum_parent=?")) {
-            ps.setInt(1, _forumId);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    final Forum f = new Forum(rs.getInt("forum_id"), this);
-                    _children.add(f);
-                    ForumsBBSManager.getInstance().addForum(f);
-                }
-            }
-        } catch (Exception e) {
-            LOGGER.warn("Data error on Forum (children): " + e.getMessage(), e);
-        }
+        //Verificar a necessidade de prevenção ao null exception
+        final Forum f = getDAO(ForumDAO.class).findParentById(_forumId);
+        _children.add(f);
+        ForumsBBSManager.getInstance().addForum(f);
     }
 
     public int getTopicSize() {
@@ -186,20 +177,9 @@ public class Forum {
         _topic.remove(id);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void insertIntoDb() {
-        try (Connection con = DatabaseFactory.getInstance().getConnection();
-             PreparedStatement ps = con.prepareStatement("INSERT INTO forums (forum_id,forum_name,forum_parent,forum_post,forum_type,forum_perm,forum_owner_id) VALUES (?,?,?,?,?,?,?)")) {
-            ps.setInt(1, _forumId);
-            ps.setString(2, _forumName);
-            ps.setInt(3, _fParent.getID());
-            ps.setInt(4, _forumPost);
-            ps.setInt(5, _forumType);
-            ps.setInt(6, _forumPerm);
-            ps.setInt(7, _ownerID);
-            ps.execute();
-        } catch (Exception e) {
-            LOGGER.warn("Error while saving new Forum to db " + e.getMessage(), e);
-        }
+        getDAO(ForumDAO.class).save(_forumId, _forumName, _fParent.getID(), _forumPost, _forumType, _forumPerm, _ownerID);
     }
 
     public void vload() {

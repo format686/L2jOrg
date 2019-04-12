@@ -39,6 +39,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @author UnAfraid, mrTJO
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class L2ContactList {
     private static final Logger LOGGER = LoggerFactory.getLogger(L2ContactList.class);
     private static final String QUERY_ADD = "INSERT INTO character_contacts (charId, contactId) VALUES (?, ?)";

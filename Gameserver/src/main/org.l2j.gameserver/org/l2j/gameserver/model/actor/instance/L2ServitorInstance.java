@@ -38,6 +38,7 @@ import java.util.concurrent.Future;
 /**
  * @author UnAfraid
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class L2ServitorInstance extends L2Summon implements Runnable {
     protected static final Logger log = LoggerFactory.getLogger(L2ServitorInstance.class);
 

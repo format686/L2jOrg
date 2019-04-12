@@ -1,0 +1,1935 @@
+[INFO ][2019-04-02 17:01:02][GameServer:printSection:322]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-02 17:01:02][GameServer:logVersionInfo:308]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-02 17:01:02][GameServer:logVersionInfo:309]: Build Version: ........... 1.0.0
+[INFO ][2019-04-02 17:01:02][GameServer:logVersionInfo:310]: Build Revision: .......... 1f53d63
+[INFO ][2019-04-02 17:01:02][GameServer:logVersionInfo:311]: Build date: .............. 2019-04-02T17:01:01.837-0300
+[INFO ][2019-04-02 17:01:02][GameServer:logVersionInfo:312]: Compiler JDK version: .... 11.0.2 (Oracle Corporation 11.0.2+9-LTS)
+[INFO ][2019-04-02 17:01:02][GameServer:printSection:322]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-03 20:52:13][GameServer:printSection:323]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-03 20:52:13][GameServer:logVersionInfo:309]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-03 20:52:13][GameServer:logVersionInfo:310]: Build Version: ........... 1.1.0
+[INFO ][2019-04-03 20:52:13][GameServer:logVersionInfo:311]: Build Revision: .......... 4a020a7
+[INFO ][2019-04-03 20:52:13][GameServer:logVersionInfo:312]: Build date: .............. 2019-04-03T20:52:11.871-0300
+[INFO ][2019-04-03 20:52:13][GameServer:logVersionInfo:313]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-03 20:52:13][GameServer:printSection:323]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-03 20:52:13][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 20:52:13][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 20:52:13][GameServer:printSection:323]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-03 20:52:14][Config:load:1960]: Loaded 6 Filter Words.
+[INFO ][2019-04-03 20:52:14][GameServer:printSection:323]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-03 20:52:15][BitSetIDFactory:cleanUpDB:74]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-03 20:52:15][BitSetIDFactory:cleanUpTimeStamps:89]: Cleaned 0 expired timestamps from database.
+[INFO ][2019-04-03 20:52:15][BitSetIDFactory:<init>:19]: 102912 Identifiers available
+[INFO ][2019-04-03 20:52:15][GameServer:printSection:323]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-03 20:53:03][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-03 20:53:03][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-03 20:53:03][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-03 20:53:03][GameServer:printSection:323]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-03 20:53:03][L2World:<init>:110]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-03 20:53:04][MapRegionManager:load:48]: Loaded 55  map regions.
+[INFO ][2019-04-03 20:53:04][ZoneManager:<init>:52]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-03 20:53:05][ZoneManager:load:318]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-03 20:53:05][ZoneManager:load:319]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-03 20:53:05][ZoneManager:load:321]: Last static id: 200224
+[INFO ][2019-04-03 20:53:06][DoorData:parseDocument:50]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-03 20:53:06][FenceData:load:46]: Loaded 1 Fences
+[INFO ][2019-04-03 20:53:06][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-03 20:53:06][GameServer:printSection:323]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-03 20:53:06][ActionData:load:33]: Loaded 215 player actions.
+[INFO ][2019-04-03 20:53:06][CategoryData:load:35]: Loaded 215 Categories
+[INFO ][2019-04-03 20:53:07][SecondaryAuthData:load:33]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-03 20:53:10][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-03 20:53:10][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-03 20:53:10][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-03 20:53:10][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-03 20:53:10][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-03 20:53:10][CombinationItemsData:load:33]: Loaded 96 combinations
+[INFO ][2019-04-03 20:53:10][ClanRewardData:load:38]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-03 20:53:10][ClanRewardData:load:38]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-03 20:53:10][DailyMissionData:load:34]: Loaded 84 one day rewards.
+[INFO ][2019-04-03 20:53:10][GameServer:printSection:323]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-03 20:53:11][EnchantSkillGroupsData:load:37]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-03 20:53:15][SkillData:load:130]: SkillData: Loaded 39867 Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:938]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:939]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:940]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:941]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:942]: Loaded 0 Transform Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:943]: Loaded 6 Noble Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:944]: Loaded 5 Hero Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:945]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:946]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-03 20:53:16][SkillTreesData:report:947]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-03 20:53:16][PetSkillData:load:31]: Loaded 881 skills.
+[INFO ][2019-04-03 20:53:16][GameServer:printSection:323]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-03 20:53:16][EnchantItemGroupsData:load:40]: Loaded 4 item group templates.
+[INFO ][2019-04-03 20:53:16][EnchantItemGroupsData:load:41]: Loaded 1 scroll group templates.
+[INFO ][2019-04-03 20:53:16][EnchantItemData:load:38]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-03 20:53:16][EnchantItemData:load:39]: Loaded 0 Support Items.
+[INFO ][2019-04-03 20:53:16][EnchantItemOptionsData:parseDocument:64]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-03 20:53:16][ItemCrystallizationData:load:43]: Loaded 6 crystallization templates.
+[INFO ][2019-04-03 20:53:16][ItemCrystallizationData:load:44]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-03 20:53:16][ItemCrystallizationData:generateCrystallizationData:137]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-03 20:53:17][OptionData:load:36]: Loaded 2838 Options.
+[INFO ][2019-04-03 20:53:17][EnsoulData:load:35]: Loaded 4 fees
+[INFO ][2019-04-03 20:53:17][EnsoulData:load:36]: Loaded 640 options
+[INFO ][2019-04-03 20:53:17][EnsoulData:load:37]: Loaded 320 stones
+[INFO ][2019-04-03 20:53:17][EnchantItemHPBonusData:load:58]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-03 20:53:19][BuyListData:load:46]: Loaded 360 BuyLists.
+[INFO ][2019-04-03 20:53:20][MultisellData:load:42]: Loaded 162 multisell lists.
+[INFO ][2019-04-03 20:53:20][RecipeData:load:39]: Loaded 623 recipes.
+[INFO ][2019-04-03 20:53:20][ArmorSetsData:load:38]: Loaded 48 Armor sets.
+[INFO ][2019-04-03 20:53:20][FishingData:load:38]: Loaded 1 Fishing Data.
+[INFO ][2019-04-03 20:53:20][HennaData:load:42]: Loaded 372 Henna data.
+[INFO ][2019-04-03 20:53:20][PrimeShopData:load:44]: System is disabled.
+[INFO ][2019-04-03 20:53:21][AttendanceRewardData:load:37]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-03 20:53:21][GameServer:printSection:323]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-03 20:53:21][ClassListData:load:51]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-03 20:53:21][InitialEquipmentData:load:41]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-03 20:53:21][InitialShortcutData:load:66]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-03 20:53:21][InitialShortcutData:load:67]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-03 20:53:21][InitialShortcutData:load:68]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-03 20:53:21][ExperienceData:load:40]: Loaded 86 levels
+[INFO ][2019-04-03 20:53:21][ExperienceData:load:41]: Max Player Level is: 85
+[INFO ][2019-04-03 20:53:21][ExperienceData:load:42]: Max Pet Level is: 85
+[INFO ][2019-04-03 20:53:21][KarmaData:load:31]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-03 20:53:21][HitConditionBonusData:load:40]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-03 20:53:22][PlayerTemplateData:load:40]: Loaded 89 character templates.
+[INFO ][2019-04-03 20:53:22][PlayerTemplateData:load:41]: Loaded 45384 level up gain records.
+[INFO ][2019-04-03 20:53:22][CharNameTable:loadAll:215]: CharNameTable: Loaded 1 char names.
+[INFO ][2019-04-03 20:53:22][AdminData:load:48]: AdminData: Loaded: 10 Access Levels.
+[INFO ][2019-04-03 20:53:22][AdminData:load:50]: AdminData: Loaded: 449 Access Commands.
+[INFO ][2019-04-03 20:53:23][PetDataTable:load:49]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-03 20:53:23][CubicData:load:56]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-03 20:53:23][GameServer:printSection:323]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-03 20:53:23][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-03 20:53:23][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-03 20:53:23][ResidenceFunctionsData:load:49]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-03 20:53:24][ClanHallData:load:36]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-03 20:53:24][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-03 20:53:24][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-03 20:53:24][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-03 20:53:24][GameServer:printSection:323]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-03 20:53:24][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-03 20:53:25][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-03 20:53:25][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-03 20:53:25][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-03 20:53:25][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-03 20:53:25][GameServer:printSection:323]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-03 20:53:27][NpcData:load:55]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-03 20:53:27][NpcData:load:60]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-03 20:53:28][ExtendDropData:load:51]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-03 20:53:29][SpawnsData:load:43]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-03 20:53:29][WalkingManager:load:60]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-03 20:53:29][StaticObjectData:load:53]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-03 20:53:29][ItemAuctionManager:load:84]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-03 20:53:29][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-03 20:53:29][SchemeBufferTable:<init>:97]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-03 20:53:29][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-03 20:53:29][GameServer:printSection:323]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-03 20:53:29][InstanceManager:load:68]: InstanceManager: Loaded 12 instance names.
+[INFO ][2019-04-03 20:53:30][InstanceManager:load:72]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-03 20:53:30][InstanceManager:load:76]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-03 20:53:30][GameServer:printSection:323]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-03 20:53:30][Olympiad:load:143]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-03 20:53:30][Olympiad:load:214]: Olympiad: Loading....
+[INFO ][2019-04-03 20:53:30][Olympiad:load:216]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-03 20:53:30][Olympiad:load:228]: Olympiad: 41226 minutes until period ends
+[INFO ][2019-04-03 20:53:30][Olympiad:load:233]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-03 20:53:30][Olympiad:load:237]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-03 20:53:30][Olympiad:updateCompStatus:339]: Olympiad: Competition Period Starts in 1 days, 23 hours and 6 mins.
+[INFO ][2019-04-03 20:53:30][Olympiad:updateCompStatus:341]: Olympiad: Event starts/started: Fri Apr 05 20:00:30 BRT 2019
+[INFO ][2019-04-03 20:53:30][Hero:init:133]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-03 20:53:30][Hero:init:134]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-03 20:53:30][GameServer:printSection:323]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-03 20:53:30][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-03 20:53:30][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-03 20:53:31][TeleportersData:load:35]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-03 20:53:31][CursedWeaponsManager:load:65]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-03 20:53:31][TransformData:load:41]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-03 20:53:32][BotReportTable:loadReportedCharData:175]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-03 20:53:32][GameServer:printSection:323]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-03 20:53:32][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-03 20:53:32][ShuttleData:load:48]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-03 20:53:32][GameServer:<init>:191]: GameServer: Loading server scripts:
+[INFO ][2019-04-03 20:53:32][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-03 20:53:33][SpawnsData:init:66]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-03 20:53:43][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-03 20:53:43][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-03 20:53:44][SpawnsData:init:72]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-03 20:53:44][GameServer:printSection:323]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-03 20:53:44][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-03 20:53:45][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-03 20:53:45][EventEngineData:parseEvent:128]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-03 20:53:45][EventEngineData:parseEvent:128]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-03 20:53:45][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-03 20:53:45][GameServer:printSection:323]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-03 20:53:45][Siege:startAutoTask:734]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-03 20:53:45][Siege:startAutoTask:734]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-03 20:53:45][Siege:startAutoTask:734]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-03 20:53:45][Siege:startAutoTask:734]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-03 20:53:45][Siege:startAutoTask:734]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-03 20:53:45][SiegeScheduleData:load:34]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-03 20:53:45][CastleManorManager:load:100]: CastleManorManager: Loaded 258 seeds.
+[INFO ][2019-04-03 20:53:45][CastleManorManager:loadDb:190]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-03 20:53:45][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-03 20:53:45][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-03 20:53:45][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-03 20:53:45][TaskManager:<init>:45]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-03 20:53:45][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-03 20:53:45][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-03 20:53:45][GameServer:<init>:237]: IdFactory: Free ObjectID's remaining: 2147451572
+[INFO ][2019-04-03 20:53:45][OfflineTradersTable:restoreOfflineTraders:246]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-03 20:53:45][OfflineTradersTable:restoreOfflineTraders:357]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-03 20:53:46][GameServer:<init>:262]: Started, using 576 of 4084 MB total memory
+[INFO ][2019-04-03 20:53:46][GameServer:<init>:263]: Geodata use 149 MB of memory
+[INFO ][2019-04-03 20:53:46][GameServer:<init>:264]: Maximum number of connected players is 20
+[INFO ][2019-04-03 20:53:46][GameServer:<init>:265]: Server loaded in 91 seconds
+[INFO ][2019-04-03 20:53:46][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:53:52][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:53:58][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:04][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:10][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:16][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:22][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:28][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:34][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:54:34][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[INFO ][2019-04-03 20:58:09][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:58:15][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:58:21][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 20:58:21][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[INFO ][2019-04-03 21:04:23][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:04:29][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:04:35][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:04:41][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:04:41][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[WARN ][2019-04-03 21:05:30][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[INFO ][2019-04-03 21:11:14][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:11:20][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:11:26][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:11:32][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:11:32][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[WARN ][2019-04-03 21:22:07][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[INFO ][2019-04-03 21:27:25][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:27:31][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:27:37][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:27:37][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[WARN ][2019-04-03 21:28:58][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[INFO ][2019-04-03 21:31:05][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:31:11][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:31:17][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:31:23][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:31:29][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:31:29][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[INFO ][2019-04-03 21:32:21][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:32:27][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:32:33][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:32:39][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-03 21:32:39][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[WARN ][2019-04-03 21:33:04][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:33:36][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:33:45][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:33:55][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:34:03][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:37:47][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:39:45][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:40:33][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 42 7d 00 00 
+[WARN ][2019-04-03 21:45:53][ClientPacketHandler:unknownPacket:55]: Unknown (EX_ELEMENTAL_SPIRIT_CHANGE_TYPE) packet: d0 - 0000: d0 5f 01 51 7d 00 00 
+[INFO ][2019-04-09 15:15:22][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-09 15:15:22][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-09 15:15:22][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-09 15:15:22][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-09 15:15:22][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-09T15:15:21.159-0300
+[INFO ][2019-04-09 15:15:22][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-09 15:15:22][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-09 15:15:22][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-09 15:15:22][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-09 15:15:22][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-09 15:15:22][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-09 15:15:23][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-09 15:15:23][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-09 15:15:23][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-09 15:15:24][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-09 15:15:24][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-09 15:15:24][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-09 15:15:24][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-09 15:15:24][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-09 15:15:46][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-09 15:15:46][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-09 15:15:46][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-09 15:15:46][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-09 15:15:46][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-09 15:15:46][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-09 15:15:46][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-09 15:15:47][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-09 15:15:47][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-09 15:15:47][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-09 15:15:47][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-09 15:15:47][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-09 15:15:47][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-09 15:15:47][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-09 15:15:47][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-09 15:15:48][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-09 15:15:48][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-09 15:15:51][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-09 15:15:51][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-09 15:15:51][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-09 15:15:51][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-09 15:15:51][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-09 15:15:51][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-09 15:15:52][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-09 15:15:52][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-09 15:15:52][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-09 15:15:52][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-09 15:15:52][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-09 15:15:55][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-09 15:15:56][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-09 15:15:56][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-09 15:15:56][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-09 15:15:56][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-09 15:15:56][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-09 15:15:56][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-09 15:15:56][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-09 15:15:56][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-09 15:15:56][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-09 15:15:56][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-09 15:15:56][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-09 15:15:56][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-09 15:15:56][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-09 15:15:56][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-09 15:15:56][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-09 15:15:56][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-09 15:15:58][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-09 15:15:58][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-09 15:15:58][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-09 15:15:59][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-09 15:15:59][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-09 15:15:59][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-09 15:15:59][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-09 15:15:59][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-09 15:15:59][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-09 15:15:59][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-09 15:15:59][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-09 15:15:59][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-09 15:15:59][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-09 15:15:59][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-09 15:15:59][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-09 15:15:59][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-09 15:15:59][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-09 15:15:59][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-09 15:15:59][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-09 15:15:59][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-09 15:16:00][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-09 15:16:00][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-09 15:16:00][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-09 15:16:00][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-09 15:16:00][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-09 15:16:00][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-09 15:16:01][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-09 15:16:01][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-09 15:16:01][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-09 15:16:01][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-09 15:16:01][ResidenceFunctionsData:load:58]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-09 15:16:01][ClanHallData:load:45]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-09 15:16:01][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-09 15:16:01][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-09 15:16:01][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-09 15:16:01][GameServer:printSection:325]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-09 15:16:01][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-09 15:16:01][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-09 15:16:01][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-09 15:16:01][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-09 15:16:01][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-09 15:16:01][GameServer:printSection:325]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-09 15:16:04][NpcData:load:64]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-09 15:16:04][NpcData:load:69]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-09 15:16:04][ExtendDropData:load:60]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-09 15:16:05][SpawnsData:load:52]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-09 15:16:05][WalkingManager:load:69]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-09 15:16:05][StaticObjectData:load:62]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-09 15:16:05][ItemAuctionManager:load:93]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-09 15:16:05][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-09 15:16:05][SchemeBufferTable:<init>:98]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-09 15:16:05][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-09 15:16:05][GameServer:printSection:325]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-09 15:16:05][InstanceManager:load:75]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-09 15:16:05][InstanceManager:load:79]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-09 15:16:05][GameServer:printSection:325]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-09 15:16:05][Olympiad:load:144]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-09 15:16:05][Olympiad:load:215]: Olympiad: Loading....
+[INFO ][2019-04-09 15:16:05][Olympiad:load:217]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-09 15:16:05][Olympiad:load:229]: Olympiad: 41563 minutes until period ends
+[INFO ][2019-04-09 15:16:05][Olympiad:load:234]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-09 15:16:05][Olympiad:load:238]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-09 15:16:05][Olympiad:updateCompStatus:340]: Olympiad: Competition Period Starts in 3 days, 4 hours and 44 mins.
+[INFO ][2019-04-09 15:16:05][Olympiad:updateCompStatus:342]: Olympiad: Event starts/started: Fri Apr 12 20:00:05 BRT 2019
+[INFO ][2019-04-09 15:16:05][Hero:init:135]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-09 15:16:05][Hero:init:136]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-09 15:16:05][GameServer:printSection:325]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-09 15:16:05][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-09 15:16:06][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-09 15:16:06][TeleportersData:load:44]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-09 15:16:07][CursedWeaponsManager:load:74]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-09 15:16:07][TransformData:load:50]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-09 15:16:07][BotReportTable:loadReportedCharData:176]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-09 15:16:07][GameServer:printSection:325]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-09 15:16:07][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-09 15:16:07][ShuttleData:load:57]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-09 15:16:07][GameServer:<init>:193]: GameServer: Loading server scripts:
+[INFO ][2019-04-09 15:16:07][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-09 15:16:08][SpawnsData:init:75]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-09 15:16:16][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-09 15:16:16][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-09 15:16:17][SpawnsData:init:81]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-09 15:16:17][GameServer:printSection:325]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-09 15:16:17][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-09 15:16:17][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-09 15:16:17][EventEngineData:parseEvent:137]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-09 15:16:17][EventEngineData:parseEvent:137]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-09 15:16:17][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-09 15:16:17][GameServer:printSection:325]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-09 15:16:17][Siege:startAutoTask:737]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-09 15:16:17][Siege:startAutoTask:737]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-09 15:16:17][Siege:startAutoTask:737]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-09 15:16:17][Siege:startAutoTask:737]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-09 15:16:17][Siege:startAutoTask:737]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-09 15:16:17][SiegeScheduleData:load:40]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-09 15:16:17][CastleManorManager:load:109]: Loaded 258 seeds.
+[INFO ][2019-04-09 15:16:17][CastleManorManager:loadDb:199]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-09 15:16:17][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-09 15:16:17][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-09 15:16:17][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-09 15:16:17][TaskManager:<init>:46]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-09 15:16:17][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-09 15:16:17][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-09 15:16:17][GameServer:<init>:239]: IdFactory: Free ObjectID's remaining: 2147451563
+[INFO ][2019-04-09 15:16:17][OfflineTradersTable:restoreOfflineTraders:247]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-09 15:16:17][OfflineTradersTable:restoreOfflineTraders:358]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-09 15:16:18][GameServer:<init>:264]: Started, using 582 of 4084 MB total memory
+[INFO ][2019-04-09 15:16:18][GameServer:<init>:265]: Geodata use 151 MB of memory
+[INFO ][2019-04-09 15:16:18][GameServer:<init>:266]: Maximum number of connected players is 20
+[INFO ][2019-04-09 15:16:18][GameServer:<init>:267]: Server loaded in 53 seconds
+[INFO ][2019-04-09 15:16:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-09 15:16:18][AuthResponse:runImpl:32]: Registered on authserver as 1 [Bartz]
+[INFO ][2019-04-11 02:37:50][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-11 02:37:50][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-11 02:37:50][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-11 02:37:50][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-11 02:37:50][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-11T02:37:48.354-0300
+[INFO ][2019-04-11 02:37:50][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-11 02:37:50][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-11 02:37:50][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-11 02:37:50][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-11 02:37:50][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-11 02:37:51][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-11 02:37:52][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-11 02:37:52][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-11 02:37:52][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-11 02:37:52][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-11 02:37:52][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-11 02:37:52][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-11 02:37:52][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-11 02:37:52][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-11 02:38:13][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-11 02:38:13][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-11 02:38:13][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-11 02:38:13][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-11 02:38:13][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-11 02:38:14][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-11 02:38:14][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-11 02:38:15][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-11 02:38:15][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-11 02:38:15][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-11 02:38:15][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-11 02:38:15][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-11 02:38:15][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-11 02:38:15][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-11 02:38:15][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-11 02:38:15][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-11 02:38:15][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-11 02:38:19][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-11 02:38:19][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-11 02:38:19][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-11 02:38:19][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-11 02:38:19][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-11 02:38:19][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-11 02:38:19][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-11 02:38:19][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-11 02:38:19][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-11 02:38:19][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-11 02:38:19][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-11 02:38:22][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-11 02:38:23][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-11 02:38:23][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-11 02:38:23][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-11 02:38:23][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-11 02:38:23][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-11 02:38:23][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-11 02:38:23][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-11 02:38:23][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-11 02:38:23][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-11 02:38:23][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-11 02:38:23][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-11 02:38:23][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-11 02:38:23][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-11 02:38:23][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-11 02:38:23][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-11 02:38:23][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-11 02:38:25][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-11 02:38:25][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-11 02:38:25][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-11 02:38:26][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-11 02:38:26][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-11 02:38:26][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-11 02:38:26][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-11 02:38:26][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-11 02:38:26][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-11 02:38:26][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-11 02:38:26][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-11 02:38:26][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-11 02:38:26][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-11 02:38:26][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-11 02:38:26][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-11 02:38:26][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-11 02:38:26][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-11 02:38:26][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-11 02:38:26][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-11 02:38:26][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-11 02:38:26][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-11 02:38:26][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-11 02:38:26][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-11 02:38:26][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-11 02:38:26][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-11 02:38:27][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-11 02:38:27][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-11 02:38:27][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-11 03:01:14][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-11 03:01:14][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-11 03:01:14][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-11 03:01:14][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-11 03:01:14][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-11T03:01:12.939-0300
+[INFO ][2019-04-11 03:01:14][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-11 03:01:14][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-11 03:01:14][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-11 03:01:14][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-11 03:01:14][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-11 03:01:14][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-11 03:01:15][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-11 03:01:15][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-11 03:01:15][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-11 03:01:15][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-11 03:01:15][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-11 03:01:15][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-11 03:01:15][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-11 03:01:15][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-11 03:01:30][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-11 03:01:30][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-11 03:01:30][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-11 03:01:30][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-11 03:01:30][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-11 03:01:30][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-11 03:01:30][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-11 03:01:31][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-11 03:01:31][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-11 03:01:31][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-11 03:01:31][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-11 03:01:31][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-11 03:01:31][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-11 03:01:31][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-11 03:01:31][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-11 03:01:31][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-11 03:01:31][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-11 03:01:33][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-11 03:01:33][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-11 03:01:33][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-11 03:01:33][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-11 03:01:33][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-11 03:01:33][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-11 03:01:33][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-11 03:01:33][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-11 03:01:33][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-11 03:01:33][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-11 03:01:33][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-11 03:01:35][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-11 03:01:35][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-11 03:01:35][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-11 03:01:35][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-11 03:01:35][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-11 03:01:35][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-11 03:01:35][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-11 03:01:35][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-11 03:01:35][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-11 03:01:35][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-11 03:01:35][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-11 03:01:35][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-11 03:01:35][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-11 03:01:35][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-11 03:01:35][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-11 03:01:35][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-11 03:01:35][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-11 03:01:36][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-11 03:01:36][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-11 03:01:36][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-11 03:01:36][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-11 03:01:36][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-11 03:01:36][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-11 03:01:36][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-11 03:01:36][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-11 03:01:36][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-11 03:01:36][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-11 03:01:36][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-11 03:01:36][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-11 03:01:36][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-11 03:01:36][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-11 03:01:36][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-11 03:01:36][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-11 03:01:36][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-11 03:01:36][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-11 03:01:36][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-11 03:01:36][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-11 03:01:36][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-11 03:01:36][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-11 03:01:36][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-11 03:01:36][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-11 03:01:36][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-11 03:01:36][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-11 03:01:36][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-11 03:01:36][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 00:27:08][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 00:27:08][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 00:27:08][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 00:27:08][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 00:27:08][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T00:27:07.236-0300
+[INFO ][2019-04-12 00:27:08][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 00:27:08][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 00:27:08][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 00:27:09][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 00:27:09][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 00:27:09][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 00:27:10][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 00:27:10][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 00:27:10][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 00:27:10][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 00:27:10][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 00:27:11][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 00:27:11][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 00:27:11][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 00:27:33][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 00:27:33][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 00:27:33][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 00:27:33][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 00:27:33][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 00:27:33][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 00:27:33][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 00:27:34][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 00:27:34][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 00:27:34][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 00:27:35][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 00:27:35][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 00:27:35][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 00:27:35][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 00:27:35][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 00:27:35][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 00:27:35][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 00:27:39][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 00:27:39][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 00:27:39][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 00:27:39][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 00:27:39][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 00:27:39][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 00:27:39][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 00:27:39][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 00:27:39][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 00:27:39][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 00:27:40][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 00:27:44][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 00:27:44][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 00:27:44][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 00:27:44][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 00:27:44][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 00:27:44][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 00:27:44][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 00:27:44][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 00:27:45][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 00:27:45][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 00:27:45][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 00:27:45][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 00:27:45][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 00:27:45][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 00:27:45][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 00:27:45][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 00:27:45][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 00:27:47][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 00:27:47][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 00:27:47][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 00:27:48][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 00:27:48][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 00:27:48][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 00:27:48][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 00:27:48][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 00:27:48][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 00:27:48][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 00:27:48][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 00:27:48][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 00:27:48][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 00:27:48][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 00:27:48][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 00:27:48][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 00:27:48][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 00:27:48][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 00:27:48][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 00:27:48][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 00:27:48][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 00:27:48][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 00:27:48][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 00:27:48][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 00:27:48][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 00:27:49][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 00:27:49][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 00:27:49][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 00:27:49][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-12 00:27:49][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-12 00:27:49][ResidenceFunctionsData:load:58]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-12 00:27:50][ClanHallData:load:45]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-12 00:27:50][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-12 00:27:50][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-12 00:27:50][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-12 00:27:50][GameServer:printSection:325]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-12 00:27:50][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-12 00:27:50][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-12 00:27:50][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-12 00:27:50][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-12 00:27:50][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-12 00:27:50][GameServer:printSection:325]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-12 00:27:52][NpcData:load:64]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-12 00:27:52][NpcData:load:69]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-12 00:27:52][ExtendDropData:load:60]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-12 00:27:53][SpawnsData:load:52]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-12 00:27:53][WalkingManager:load:69]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-12 00:27:54][StaticObjectData:load:62]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-12 00:27:54][ItemAuctionManager:load:93]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-12 00:27:54][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-12 00:27:54][SchemeBufferTable:<init>:98]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-12 00:27:54][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-12 00:27:54][GameServer:printSection:325]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-12 00:27:54][InstanceManager:load:75]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-12 00:27:54][InstanceManager:load:79]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-12 00:27:54][GameServer:printSection:325]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-12 00:27:54][Olympiad:load:144]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-12 00:27:54][Olympiad:load:215]: Olympiad: Loading....
+[INFO ][2019-04-12 00:27:54][Olympiad:load:217]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-12 00:27:54][Olympiad:load:229]: Olympiad: 42452 minutes until period ends
+[INFO ][2019-04-12 00:27:54][Olympiad:load:234]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-12 00:27:54][Olympiad:load:238]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-12 00:27:54][Olympiad:updateCompStatus:340]: Olympiad: Competition Period Starts in 0 days, 19 hours and 33 mins.
+[INFO ][2019-04-12 00:27:54][Olympiad:updateCompStatus:342]: Olympiad: Event starts/started: Fri Apr 12 20:00:54 BRT 2019
+[INFO ][2019-04-12 00:27:54][Hero:init:135]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-12 00:27:54][Hero:init:136]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-12 00:27:54][GameServer:printSection:325]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-12 00:27:54][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-12 00:27:54][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-12 00:27:55][TeleportersData:load:44]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-12 00:27:55][CursedWeaponsManager:load:74]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-12 00:27:55][TransformData:load:50]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-12 00:27:55][BotReportTable:loadReportedCharData:176]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-12 00:27:55][GameServer:printSection:325]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-12 00:27:55][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-12 00:27:55][ShuttleData:load:57]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-12 00:27:55][GameServer:<init>:193]: GameServer: Loading server scripts:
+[INFO ][2019-04-12 00:27:55][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-12 00:27:56][SpawnsData:init:75]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-12 00:28:04][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-12 00:28:04][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-12 00:28:05][SpawnsData:init:81]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-12 00:28:05][GameServer:printSection:325]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-12 00:28:05][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-12 00:28:05][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-12 00:28:05][EventEngineData:parseEvent:137]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-12 00:28:05][EventEngineData:parseEvent:137]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-12 00:28:05][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-12 00:28:05][GameServer:printSection:325]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-12 00:28:05][Siege:startAutoTask:737]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 00:28:05][Siege:startAutoTask:737]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 00:28:05][Siege:startAutoTask:737]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 00:28:05][Siege:startAutoTask:737]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 00:28:05][Siege:startAutoTask:737]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 00:28:05][SiegeScheduleData:load:40]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-12 00:28:05][CastleManorManager:load:109]: Loaded 258 seeds.
+[INFO ][2019-04-12 00:28:05][CastleManorManager:loadDb:199]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-12 00:28:05][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-12 00:28:05][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-12 00:28:05][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-12 00:28:05][TaskManager:<init>:46]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-12 00:28:05][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-12 00:28:05][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-12 00:28:05][GameServer:<init>:239]: IdFactory: Free ObjectID's remaining: 2147451563
+[INFO ][2019-04-12 00:28:05][OfflineTradersTable:restoreOfflineTraders:247]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-12 00:28:05][OfflineTradersTable:restoreOfflineTraders:358]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-12 00:28:06][GameServer:<init>:264]: Started, using 582 of 4084 MB total memory
+[INFO ][2019-04-12 00:28:06][GameServer:<init>:265]: Geodata use 151 MB of memory
+[INFO ][2019-04-12 00:28:06][GameServer:<init>:266]: Maximum number of connected players is 20
+[INFO ][2019-04-12 00:28:06][GameServer:<init>:267]: Server loaded in 55 seconds
+[INFO ][2019-04-12 00:28:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 00:28:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 00:28:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 00:29:25][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 00:29:25][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 00:29:25][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 00:29:25][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 00:29:25][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T00:29:24.864-0300
+[INFO ][2019-04-12 00:29:25][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 00:29:25][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 00:29:25][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 00:29:26][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 00:29:26][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 00:29:26][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 00:29:27][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 00:29:27][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 00:29:27][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 00:29:27][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 00:29:27][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 00:29:27][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 00:29:27][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 00:29:27][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 00:29:44][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 00:29:44][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 00:29:44][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 00:29:44][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 00:29:44][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 00:29:45][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 00:29:45][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 00:29:45][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 00:29:45][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 00:29:45][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 00:29:45][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 00:29:45][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 00:29:45][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 00:29:45][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 00:29:45][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 00:29:45][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 00:29:45][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 00:29:47][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 00:29:47][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 00:29:47][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 00:29:47][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 00:29:47][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 00:29:47][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 00:29:47][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 00:29:47][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 00:29:47][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 00:29:47][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 00:29:47][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 00:29:49][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 00:29:49][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 00:29:49][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 00:29:49][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 00:29:49][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 00:29:49][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 00:29:49][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 00:29:49][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 00:29:49][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 00:29:49][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 00:29:49][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 00:29:49][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 00:29:49][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 00:29:49][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 00:29:49][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 00:29:49][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 00:29:49][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 00:29:49][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 00:29:49][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 00:29:49][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 00:29:49][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 00:29:49][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 00:29:49][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 00:29:49][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 00:29:49][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 00:29:49][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 00:29:49][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 00:29:49][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 00:29:49][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 00:29:49][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 00:29:49][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 00:29:49][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 00:29:49][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 00:29:49][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 00:29:49][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 00:29:49][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 00:29:49][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 00:29:49][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 00:29:49][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 00:29:49][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 00:29:49][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 00:29:49][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 00:29:50][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 00:29:50][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 00:29:50][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 00:32:33][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 00:32:33][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 00:32:33][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 00:32:33][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 00:32:33][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T00:32:32.208-0300
+[INFO ][2019-04-12 00:32:33][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 00:32:33][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 00:32:33][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 00:32:34][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 00:32:34][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 00:32:34][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 00:32:34][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 00:32:34][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 00:32:34][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 00:32:35][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 00:32:35][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 00:32:35][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 00:32:35][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 00:32:35][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 00:32:54][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 00:32:54][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 00:32:54][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 00:32:54][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 00:32:54][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 00:32:54][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 00:32:54][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 00:32:54][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 00:32:54][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 00:32:54][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 00:32:55][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 00:32:55][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 00:32:55][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 00:32:55][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 00:32:55][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 00:32:55][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 00:32:55][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 00:32:57][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 00:32:57][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 00:32:57][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 00:32:57][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 00:32:57][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 00:32:57][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 00:32:57][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 00:32:57][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 00:32:57][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 00:32:57][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 00:32:57][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 00:32:59][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 00:32:59][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 00:32:59][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 00:32:59][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 00:32:59][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 00:32:59][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 00:32:59][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 00:32:59][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 00:32:59][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 00:32:59][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 00:32:59][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 00:32:59][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 00:32:59][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 00:33:00][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 00:33:00][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 00:33:00][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 00:33:00][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 00:33:00][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 00:33:00][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 00:33:00][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 00:33:00][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 00:33:00][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 00:33:00][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 00:33:00][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 00:33:00][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 00:33:00][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 00:33:00][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 00:33:00][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 00:33:00][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 00:33:00][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 00:33:00][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 00:33:00][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 00:33:00][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 00:33:00][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 00:33:00][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 00:33:00][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 00:33:00][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 00:33:00][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 00:33:00][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 00:33:00][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 00:33:00][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 00:33:00][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 00:33:01][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 00:33:01][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 00:33:01][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 01:00:13][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 01:00:13][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 01:00:13][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 01:00:13][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 01:00:13][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T01:00:12.378-0300
+[INFO ][2019-04-12 01:00:13][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 01:00:13][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 01:00:13][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 01:00:13][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 01:00:13][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 01:00:13][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 01:00:14][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 01:00:14][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 01:00:14][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 01:00:14][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 01:00:14][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 01:00:14][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 01:00:14][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 01:00:14][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 01:00:29][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 01:00:29][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 01:00:29][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 01:00:29][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 01:00:29][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 01:00:29][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 01:00:29][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 01:00:30][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 01:00:30][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 01:00:30][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 01:00:30][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 01:00:30][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 01:00:30][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 01:00:30][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 01:00:30][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 01:00:30][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 01:00:30][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 01:00:31][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 01:00:31][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 01:00:31][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 01:00:31][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 01:00:31][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 01:00:31][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 01:00:31][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 01:00:31][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 01:00:31][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 01:00:31][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 01:00:32][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 01:00:33][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 01:00:34][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 01:00:34][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 01:00:34][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 01:00:34][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 01:00:34][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 01:00:34][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 01:00:34][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 01:00:34][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 01:00:34][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 01:00:34][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 01:00:34][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 01:00:34][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 01:00:34][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 01:00:34][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 01:00:34][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 01:00:34][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 01:00:34][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 01:00:34][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 01:00:34][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 01:00:34][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 01:00:34][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 01:00:34][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 01:00:34][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 01:00:34][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 01:00:34][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 01:00:34][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 01:00:34][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 01:00:34][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 01:00:34][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 01:00:34][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 01:00:34][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 01:00:34][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 01:00:34][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 01:00:34][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 01:00:34][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 01:00:34][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 01:00:34][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 01:00:34][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 01:00:34][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 01:00:34][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 01:00:34][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 01:00:35][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 01:00:35][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 01:00:35][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 01:09:20][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 01:09:20][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 01:09:20][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 01:09:20][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 01:09:20][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T01:09:19.071-0300
+[INFO ][2019-04-12 01:09:20][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 01:09:20][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 01:09:20][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 01:09:20][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 01:09:20][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 01:09:20][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 01:09:21][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 01:09:21][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 01:09:21][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 01:09:21][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 01:09:21][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 01:09:21][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 01:09:21][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 01:09:21][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 01:09:36][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 01:09:36][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 01:09:36][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 01:09:36][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 01:09:36][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 01:09:36][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 01:09:36][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 01:09:37][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 01:09:37][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 01:09:37][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 01:09:37][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 01:09:37][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 01:09:37][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 01:09:37][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 01:09:37][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 01:09:37][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 01:09:37][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 01:09:39][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 01:09:39][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 01:09:39][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 01:09:39][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 01:09:39][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 01:09:39][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 01:09:39][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 01:09:39][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 01:09:39][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 01:09:39][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 01:09:39][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 01:09:40][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 01:09:41][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 01:09:41][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 01:09:41][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 01:09:41][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 01:09:41][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 01:09:41][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 01:09:41][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 01:09:41][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 01:09:41][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 01:09:41][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 01:09:41][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 01:09:41][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 01:09:41][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 01:09:41][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 01:09:41][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 01:09:41][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 01:09:41][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 01:09:41][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 01:09:41][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 01:09:41][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 01:09:41][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 01:09:41][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 01:09:41][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 01:09:41][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 01:09:41][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 01:09:41][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 01:09:41][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 01:09:41][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 01:09:41][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 01:09:41][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 01:09:41][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 01:09:41][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 01:09:41][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 01:09:41][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 01:09:41][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 01:09:41][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 01:09:41][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 01:09:41][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 01:09:41][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 01:09:41][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 01:09:41][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 01:09:42][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 01:09:42][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 01:09:42][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 01:25:43][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 01:25:43][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 01:25:43][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 01:25:43][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 01:25:43][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T01:25:41.412-0300
+[INFO ][2019-04-12 01:25:43][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 01:25:43][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 01:25:43][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 01:25:43][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 01:25:43][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 01:25:43][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 01:25:44][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 01:25:44][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 01:25:44][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 01:25:44][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 01:25:44][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 01:25:44][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 01:25:44][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 01:25:44][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 01:26:00][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 01:26:00][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 01:26:00][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 01:26:00][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 01:26:00][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 01:26:00][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 01:26:00][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 01:26:00][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 01:26:00][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 01:26:00][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 01:26:00][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 01:26:00][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 01:26:00][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 01:26:00][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 01:26:01][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 01:26:01][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 01:26:01][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 01:26:02][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 01:26:02][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 01:26:02][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 01:26:02][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 01:26:02][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 01:26:02][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 01:26:02][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 01:26:02][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 01:26:02][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 01:26:02][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 01:26:02][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 01:26:04][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 01:26:04][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 01:26:04][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 01:26:04][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 01:26:04][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 01:26:04][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 01:26:04][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 01:26:04][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 01:26:04][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 01:26:04][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 01:26:04][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 01:26:04][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 01:26:04][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 01:26:04][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 01:26:04][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 01:26:04][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 01:26:04][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 01:26:04][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 01:26:04][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 01:26:04][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 01:26:04][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 01:26:04][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 01:26:04][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 01:26:04][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 01:26:05][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 01:26:05][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 01:26:05][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 01:26:05][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 01:26:05][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 01:26:05][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 01:26:05][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 01:26:05][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 01:26:05][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 01:26:05][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 01:26:05][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 01:26:05][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 01:26:05][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 01:26:05][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 01:26:05][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 01:26:05][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 01:26:05][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 01:26:05][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 01:26:05][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 01:26:05][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 01:26:05][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 01:26:05][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-12 01:26:05][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-12 01:26:05][ResidenceFunctionsData:load:58]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-12 01:26:05][ClanHallData:load:45]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-12 01:26:05][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-12 01:26:05][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-12 01:26:05][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-12 01:26:05][GameServer:printSection:325]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-12 01:26:05][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-12 01:26:05][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-12 01:26:05][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-12 01:26:05][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-12 01:26:05][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-12 01:26:05][GameServer:printSection:325]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-12 01:26:07][NpcData:load:64]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-12 01:26:07][NpcData:load:69]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-12 01:26:07][ExtendDropData:load:60]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-12 01:26:07][SpawnsData:load:52]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-12 01:26:07][WalkingManager:load:69]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-12 01:26:07][StaticObjectData:load:62]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-12 01:26:07][ItemAuctionManager:load:93]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-12 01:26:07][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-12 01:26:07][SchemeBufferTable:<init>:98]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-12 01:26:07][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-12 01:26:07][GameServer:printSection:325]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-12 01:26:07][InstanceManager:load:75]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-12 01:26:07][InstanceManager:load:79]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-12 01:26:07][GameServer:printSection:325]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-12 01:26:07][Olympiad:load:144]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-12 01:26:07][Olympiad:load:215]: Olympiad: Loading....
+[INFO ][2019-04-12 01:26:07][Olympiad:load:217]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-12 01:26:07][Olympiad:load:229]: Olympiad: 42393 minutes until period ends
+[INFO ][2019-04-12 01:26:07][Olympiad:load:234]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-12 01:26:07][Olympiad:load:238]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-12 01:26:07][Olympiad:updateCompStatus:340]: Olympiad: Competition Period Starts in 0 days, 18 hours and 33 mins.
+[INFO ][2019-04-12 01:26:07][Olympiad:updateCompStatus:342]: Olympiad: Event starts/started: Fri Apr 12 20:00:07 BRT 2019
+[INFO ][2019-04-12 01:26:07][Hero:init:135]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-12 01:26:07][Hero:init:136]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-12 01:26:07][GameServer:printSection:325]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-12 01:26:07][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-12 01:26:07][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-12 01:26:08][TeleportersData:load:44]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-12 01:26:08][CursedWeaponsManager:load:74]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-12 01:26:08][TransformData:load:50]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-12 01:26:08][BotReportTable:loadReportedCharData:176]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-12 01:26:08][GameServer:printSection:325]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-12 01:26:08][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-12 01:26:08][ShuttleData:load:57]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-12 01:26:08][GameServer:<init>:193]: GameServer: Loading server scripts:
+[INFO ][2019-04-12 01:26:08][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-12 01:26:09][SpawnsData:init:75]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-12 01:26:18][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-12 01:26:18][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-12 01:26:18][SpawnsData:init:81]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-12 01:26:18][GameServer:printSection:325]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-12 01:26:18][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-12 01:26:18][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-12 01:26:18][EventEngineData:parseEvent:137]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-12 01:26:18][EventEngineData:parseEvent:137]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-12 01:26:18][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-12 01:26:18][GameServer:printSection:325]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-12 01:26:18][Siege:startAutoTask:737]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:26:18][Siege:startAutoTask:737]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:26:18][Siege:startAutoTask:737]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:26:18][Siege:startAutoTask:737]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:26:18][Siege:startAutoTask:737]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:26:18][SiegeScheduleData:load:40]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-12 01:26:18][CastleManorManager:load:109]: Loaded 258 seeds.
+[INFO ][2019-04-12 01:26:18][CastleManorManager:loadDb:199]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-12 01:26:18][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-12 01:26:18][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-12 01:26:18][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-12 01:26:18][TaskManager:<init>:46]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-12 01:26:18][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-12 01:26:18][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-12 01:26:18][GameServer:<init>:239]: IdFactory: Free ObjectID's remaining: 2147451557
+[INFO ][2019-04-12 01:26:18][OfflineTradersTable:restoreOfflineTraders:247]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-12 01:26:18][OfflineTradersTable:restoreOfflineTraders:358]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-12 01:26:19][GameServer:<init>:264]: Started, using 582 of 4084 MB total memory
+[INFO ][2019-04-12 01:26:19][GameServer:<init>:265]: Geodata use 4 MB of memory
+[INFO ][2019-04-12 01:26:19][GameServer:<init>:266]: Maximum number of connected players is 20
+[INFO ][2019-04-12 01:26:19][GameServer:<init>:267]: Server loaded in 34 seconds
+[INFO ][2019-04-12 01:26:19][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:25][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:31][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:37][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:43][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:49][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:26:55][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:01][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:07][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:13][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:19][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:25][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:31][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:37][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:43][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:49][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:27:55][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:01][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:07][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:13][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:19][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:25][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:31][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:37][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:43][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:49][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:28:55][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:29:01][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:29:07][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:29:13][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:37:30][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 01:37:30][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 01:37:30][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 01:37:30][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 01:37:30][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T01:37:29.602-0300
+[INFO ][2019-04-12 01:37:30][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 01:37:30][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 01:37:30][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 01:37:31][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 01:37:31][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 01:37:31][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 01:37:32][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 01:37:32][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 01:37:32][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 01:37:32][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 01:37:32][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 01:37:32][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 01:37:32][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 01:37:32][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 01:37:47][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 01:37:47][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 01:37:47][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 01:37:47][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 01:37:47][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 01:37:47][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 01:37:47][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 01:37:47][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 01:37:47][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 01:37:47][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 01:37:47][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 01:37:47][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 01:37:47][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 01:37:47][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 01:37:48][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 01:37:48][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 01:37:48][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 01:37:49][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 01:37:49][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 01:37:49][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 01:37:49][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 01:37:49][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 01:37:49][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 01:37:49][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 01:37:49][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 01:37:49][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 01:37:49][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 01:37:49][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 01:37:51][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 01:37:51][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 01:37:51][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 01:37:51][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 01:37:51][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 01:37:51][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 01:37:51][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 01:37:51][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 01:37:51][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 01:37:51][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 01:37:51][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 01:37:51][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 01:37:51][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 01:37:51][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 01:37:51][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 01:37:51][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 01:37:51][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 01:37:51][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 01:37:51][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 01:37:51][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 01:37:51][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 01:37:51][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 01:37:51][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 01:37:51][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 01:37:51][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 01:37:51][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 01:37:51][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 01:37:51][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 01:37:51][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 01:37:51][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 01:37:51][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 01:37:51][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 01:37:51][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 01:37:51][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 01:37:51][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 01:37:51][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 01:37:51][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 01:37:52][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 01:37:52][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 01:37:52][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 01:37:52][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 01:37:52][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 01:37:52][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 01:37:52][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 01:37:52][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 01:37:52][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-12 01:37:52][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-12 01:37:52][ResidenceFunctionsData:load:58]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-12 01:37:52][ClanHallData:load:45]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-12 01:37:52][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-12 01:37:52][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-12 01:37:52][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-12 01:37:52][GameServer:printSection:325]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-12 01:37:52][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-12 01:37:52][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-12 01:37:52][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-12 01:37:52][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-12 01:37:52][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-12 01:37:52][GameServer:printSection:325]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-12 01:37:54][NpcData:load:64]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-12 01:37:54][NpcData:load:69]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-12 01:37:54][ExtendDropData:load:60]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-12 01:37:54][SpawnsData:load:52]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-12 01:37:54][WalkingManager:load:69]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-12 01:37:54][StaticObjectData:load:62]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-12 01:37:54][ItemAuctionManager:load:93]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-12 01:37:54][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-12 01:37:54][SchemeBufferTable:<init>:98]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-12 01:37:54][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-12 01:37:54][GameServer:printSection:325]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-12 01:37:54][InstanceManager:load:75]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-12 01:37:54][InstanceManager:load:79]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-12 01:37:54][GameServer:printSection:325]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-12 01:37:54][Olympiad:load:144]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-12 01:37:54][Olympiad:load:215]: Olympiad: Loading....
+[INFO ][2019-04-12 01:37:54][Olympiad:load:217]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-12 01:37:54][Olympiad:load:229]: Olympiad: 42382 minutes until period ends
+[INFO ][2019-04-12 01:37:54][Olympiad:load:234]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-12 01:37:54][Olympiad:load:238]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-12 01:37:54][Olympiad:updateCompStatus:340]: Olympiad: Competition Period Starts in 0 days, 18 hours and 22 mins.
+[INFO ][2019-04-12 01:37:54][Olympiad:updateCompStatus:342]: Olympiad: Event starts/started: Fri Apr 12 20:00:54 BRT 2019
+[INFO ][2019-04-12 01:37:54][Hero:init:135]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-12 01:37:54][Hero:init:136]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-12 01:37:54][GameServer:printSection:325]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-12 01:37:54][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-12 01:37:54][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-12 01:37:55][TeleportersData:load:44]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-12 01:37:55][CursedWeaponsManager:load:74]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-12 01:37:55][TransformData:load:50]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-12 01:37:55][BotReportTable:loadReportedCharData:176]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-12 01:37:55][GameServer:printSection:325]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-12 01:37:55][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-12 01:37:55][ShuttleData:load:57]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-12 01:37:55][GameServer:<init>:193]: GameServer: Loading server scripts:
+[INFO ][2019-04-12 01:37:55][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-12 01:37:56][SpawnsData:init:75]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-12 01:38:04][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-12 01:38:04][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-12 01:38:05][SpawnsData:init:81]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-12 01:38:05][GameServer:printSection:325]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-12 01:38:05][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-12 01:38:05][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-12 01:38:05][EventEngineData:parseEvent:137]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-12 01:38:05][EventEngineData:parseEvent:137]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-12 01:38:05][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-12 01:38:05][GameServer:printSection:325]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-12 01:38:05][Siege:startAutoTask:737]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:38:05][Siege:startAutoTask:737]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:38:05][Siege:startAutoTask:737]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:38:05][Siege:startAutoTask:737]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:38:05][Siege:startAutoTask:737]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 01:38:05][SiegeScheduleData:load:40]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-12 01:38:05][CastleManorManager:load:109]: Loaded 258 seeds.
+[INFO ][2019-04-12 01:38:05][CastleManorManager:loadDb:199]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-12 01:38:05][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-12 01:38:05][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-12 01:38:05][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-12 01:38:05][TaskManager:<init>:46]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-12 01:38:05][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-12 01:38:05][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-12 01:38:05][GameServer:<init>:239]: IdFactory: Free ObjectID's remaining: 2147451563
+[INFO ][2019-04-12 01:38:05][OfflineTradersTable:restoreOfflineTraders:247]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-12 01:38:05][OfflineTradersTable:restoreOfflineTraders:358]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-12 01:38:06][GameServer:<init>:264]: Started, using 582 of 4084 MB total memory
+[INFO ][2019-04-12 01:38:06][GameServer:<init>:265]: Geodata use 151 MB of memory
+[INFO ][2019-04-12 01:38:06][GameServer:<init>:266]: Maximum number of connected players is 20
+[INFO ][2019-04-12 01:38:06][GameServer:<init>:267]: Server loaded in 33 seconds
+[INFO ][2019-04-12 01:38:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:38:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:39:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:40:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:41:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:42:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:43:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:44:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:45:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:46:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:12][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:18][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:24][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:30][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:36][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:42][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:48][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:47:54][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:48:00][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 01:48:06][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 02:36:47][GameServer:printSection:325]: ---------------------------------------------=[ Server Info Version ]
+[INFO ][2019-04-12 02:36:47][GameServer:logVersionInfo:311]: Update: .................. Classic: Saviors (Seven Signs)
+[INFO ][2019-04-12 02:36:47][GameServer:logVersionInfo:312]: Build Version: ........... 1.1.0
+[INFO ][2019-04-12 02:36:47][GameServer:logVersionInfo:313]: Build Revision: .......... b3a8d7f
+[INFO ][2019-04-12 02:36:47][GameServer:logVersionInfo:314]: Build date: .............. 2019-04-12T02:36:46.564-0300
+[INFO ][2019-04-12 02:36:47][GameServer:logVersionInfo:315]: Compiler JDK version: .... 12 (Oracle Corporation 12+33)
+[INFO ][2019-04-12 02:36:47][GameServer:printSection:325]: ---------------------------------------------=[ Database Connection ]
+[INFO ][2019-04-12 02:36:47][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-12 02:36:48][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-12 02:36:48][GameServer:printSection:325]: --------------------------------------------=[ Server Configuration ]
+[INFO ][2019-04-12 02:36:48][Config:load:2566]: Network Config: ipconfig.xml doesn't exists using automatic configuration...
+[INFO ][2019-04-12 02:36:49][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+[INFO ][2019-04-12 02:36:49][Config:autoIpConfig:2641]: Network Config: Adding new subnet: 192.168.0.0/24 address: 192.168.0.115
+[INFO ][2019-04-12 02:36:49][Config:autoIpConfig:2649]: Network Config: Adding new subnet: 0.0.0.0/0 address: 179.124.186.199
+[INFO ][2019-04-12 02:36:49][Config:load:1957]: Loaded 6 Filter Words.
+[INFO ][2019-04-12 02:36:49][GameServer:printSection:325]: ------------------------------------------------=[ Identify Factory ]
+[INFO ][2019-04-12 02:36:49][BitSetIDFactory:cleanUpDB:50]: Cleaned 0 elements from database in 0 s
+[INFO ][2019-04-12 02:36:49][BitSetIDFactory:<init>:22]: 102912 Identifiers available
+[INFO ][2019-04-12 02:36:49][GameServer:printSection:325]: ------------------------------------------------=[ Scripting Engine ]
+[ERROR][2019-04-12 02:37:08][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Some input files use preview language features.
+[ERROR][2019-04-12 02:37:08][JavaExecutionContext:report:175]: Error on F:\Workspace\L2jOrg\Datapack\gameserver\data\scripts\org.l2j.scripts\module-info.java -1:-1 - Recompile with -Xlint:preview for details.
+[INFO ][2019-04-12 02:37:08][ScriptEngineManager:registerEngine:63]: Java Engine 12 (Java [3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+[INFO ][2019-04-12 02:37:08][GameServer:printSection:325]: ------------------------------------------------=[ Lineage II World ]
+[INFO ][2019-04-12 02:37:08][L2World:<init>:111]: World Region Grid set up: 288 by 272
+[INFO ][2019-04-12 02:37:08][MapRegionManager:load:57]: Loaded 55  map regions.
+[INFO ][2019-04-12 02:37:08][ZoneManager:<init>:55]: Zone Region Grid set up: 19 by 18
+[INFO ][2019-04-12 02:37:08][ZoneManager:load:326]: Loaded 24 zone classes and 2721 zones.
+[INFO ][2019-04-12 02:37:08][ZoneManager:load:327]: Loaded 0  NPC spawn territoriers.
+[INFO ][2019-04-12 02:37:08][ZoneManager:load:329]: Last static id: 200224
+[INFO ][2019-04-12 02:37:09][DoorData:parseDocument:59]: Loaded 1512 Door Templates for 20 regions.
+[INFO ][2019-04-12 02:37:09][FenceData:load:55]: Loaded 1 Fences
+[INFO ][2019-04-12 02:37:09][GlobalVariablesManager:restoreMe:48]: Loaded 3 variables
+[INFO ][2019-04-12 02:37:09][GameServer:printSection:325]: -----------------------------------------------------=[ Server Data ]
+[INFO ][2019-04-12 02:37:09][ActionData:load:42]: Loaded 215 player actions.
+[INFO ][2019-04-12 02:37:09][CategoryData:load:44]: Loaded 215 Categories
+[INFO ][2019-04-12 02:37:09][SecondaryAuthData:load:39]: Loaded 328 forbidden passwords.
+[INFO ][2019-04-12 02:37:10][ItemTable:buildFastLookupTable:127]: Highest item id used: 91289
+[INFO ][2019-04-12 02:37:10][ItemTable:load:114]: Loaded 7068 Etc Items
+[INFO ][2019-04-12 02:37:10][ItemTable:load:115]: Loaded 1863 Armor Items
+[INFO ][2019-04-12 02:37:10][ItemTable:load:116]: Loaded 1509 Weapon Items
+[INFO ][2019-04-12 02:37:10][ItemTable:load:117]: Loaded 10440 Items in total.
+[INFO ][2019-04-12 02:37:10][CombinationItemsData:load:42]: Loaded 96 combinations
+[INFO ][2019-04-12 02:37:10][ClanRewardData:load:44]: Loaded 4 rewards for MEMBERS_ONLINE
+[INFO ][2019-04-12 02:37:10][ClanRewardData:load:44]: Loaded 4 rewards for HUNTING_MONSTERS
+[INFO ][2019-04-12 02:37:10][DailyMissionData:load:43]: Loaded 84 one day rewards.
+[INFO ][2019-04-12 02:37:10][GameServer:printSection:325]: ----------------------------------------------------------=[ Skills ]
+[INFO ][2019-04-12 02:37:11][EnchantSkillGroupsData:load:46]: Loaded 30  enchant routes, max enchant set to 30
+[INFO ][2019-04-12 02:37:12][SkillData:load:135]: SkillData: Loaded 39797 Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:946]: Loaded 15186 Class Skills for 89 Class Skill Trees
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:947]: Loaded 18 Fishing Skills, 8 Dwarven only Fishing Skills
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:948]: Loaded 75 Pledge Skills, 45 for Pledge and 30 Residential
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:949]: Loaded 18 Sub-Pledge Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:950]: Loaded 0 Transform Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:951]: Loaded 6 Noble Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:952]: Loaded 5 Hero Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:953]: Loaded 34 Game Master Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:954]: Loaded 1 Game Master Aura Skills.
+[INFO ][2019-04-12 02:37:12][SkillTreesData:report:955]: Loaded 8 Common Skills to all classes.
+[INFO ][2019-04-12 02:37:12][PetSkillData:load:40]: Loaded 881 skills.
+[INFO ][2019-04-12 02:37:12][GameServer:printSection:325]: -----------------------------------------------------------=[ Items ]
+[INFO ][2019-04-12 02:37:12][EnchantItemGroupsData:load:49]: Loaded 4 item group templates.
+[INFO ][2019-04-12 02:37:13][EnchantItemGroupsData:load:50]: Loaded 1 scroll group templates.
+[INFO ][2019-04-12 02:37:13][EnchantItemData:load:47]: Loaded 16 Enchant Scrolls.
+[INFO ][2019-04-12 02:37:13][EnchantItemData:load:48]: Loaded 0 Support Items.
+[INFO ][2019-04-12 02:37:13][EnchantItemOptionsData:parseDocument:73]: Loaded: 45 Items and 1371 Options.
+[INFO ][2019-04-12 02:37:13][ItemCrystallizationData:load:52]: Loaded 6 crystallization templates.
+[INFO ][2019-04-12 02:37:13][ItemCrystallizationData:load:53]: Loaded 0 pre-defined crystallizable items.
+[INFO ][2019-04-12 02:37:13][ItemCrystallizationData:generateCrystallizationData:146]: Generated 0 crystallizable items from templates.
+[INFO ][2019-04-12 02:37:13][OptionData:load:45]: Loaded 2838 Options.
+[INFO ][2019-04-12 02:37:13][EnsoulData:load:44]: Loaded 4 fees
+[INFO ][2019-04-12 02:37:13][EnsoulData:load:45]: Loaded 640 options
+[INFO ][2019-04-12 02:37:13][EnsoulData:load:46]: Loaded 320 stones
+[INFO ][2019-04-12 02:37:13][EnchantItemHPBonusData:load:67]: Loaded 5 Enchant HP Bonuses.
+[INFO ][2019-04-12 02:37:13][BuyListData:load:52]: Loaded 360 BuyLists.
+[INFO ][2019-04-12 02:37:13][MultisellData:load:51]: Loaded 162 multisell lists.
+[INFO ][2019-04-12 02:37:13][RecipeData:load:48]: Loaded 623 recipes.
+[INFO ][2019-04-12 02:37:13][ArmorSetsData:load:47]: Loaded 48 Armor sets.
+[INFO ][2019-04-12 02:37:13][FishingData:load:47]: Loaded 1 Fishing Data.
+[INFO ][2019-04-12 02:37:13][HennaData:load:51]: Loaded 372 Henna data.
+[INFO ][2019-04-12 02:37:13][PrimeShopData:load:53]: System is disabled.
+[INFO ][2019-04-12 02:37:13][LuckyGameData:load:44]: Loaded 2 lucky game data.
+[INFO ][2019-04-12 02:37:13][AttendanceRewardData:load:46]: AttendanceRewardData: Disabled.
+[INFO ][2019-04-12 02:37:13][GameServer:printSection:325]: ------------------------------------------------------=[ Characters ]
+[INFO ][2019-04-12 02:37:13][ClassListData:load:60]: ClassListData: Loaded 93 Class data.
+[INFO ][2019-04-12 02:37:13][InitialEquipmentData:load:50]: InitialEquipmentData: Loaded 9 Initial Equipment data.
+[INFO ][2019-04-12 02:37:13][InitialShortcutData:load:75]: InitialShortcutData: Loaded 5 Initial Global Shortcuts data.
+[INFO ][2019-04-12 02:37:13][InitialShortcutData:load:76]: InitialShortcutData: Loaded 4 Initial Shortcuts data.
+[INFO ][2019-04-12 02:37:13][InitialShortcutData:load:77]: InitialShortcutData: Loaded 0 Macros presets.
+[INFO ][2019-04-12 02:37:13][ExperienceData:load:48]: Loaded 86 levels
+[INFO ][2019-04-12 02:37:13][ExperienceData:load:49]: Max Player Level is: 85
+[INFO ][2019-04-12 02:37:13][ExperienceData:load:50]: Max Pet Level is: 85
+[INFO ][2019-04-12 02:37:13][KarmaData:load:40]: KarmaData: Loaded 107 karma modifiers.
+[INFO ][2019-04-12 02:37:13][HitConditionBonusData:load:49]: Loaded Hit Condition bonuses.
+[INFO ][2019-04-12 02:37:13][PlayerTemplateData:load:49]: Loaded 89 character templates.
+[INFO ][2019-04-12 02:37:13][PlayerTemplateData:load:50]: Loaded 45384 level up gain records.
+[INFO ][2019-04-12 02:37:13][CharNameTable:loadAll:215]: CharNameTable: Loaded 2 char names.
+[INFO ][2019-04-12 02:37:13][AdminData:load:54]: Loaded: 10 Access Levels.
+[INFO ][2019-04-12 02:37:13][AdminData:load:55]: Loaded: 0 Access Commands.
+[INFO ][2019-04-12 02:37:13][PetDataTable:load:58]: PetDataTable: Loaded 53 Pets.
+[INFO ][2019-04-12 02:37:13][CubicData:load:65]: CubicData: Loaded 21 cubics.
+[INFO ][2019-04-12 02:37:13][GameServer:printSection:325]: -----------------------------------------------------------=[ Clans ]
+[INFO ][2019-04-12 02:37:14][ForumsBBSManager:initRoot:55]: ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+[INFO ][2019-04-12 02:37:14][ClanTable:<init>:82]: ClanTable: Restored 0 clans from the database.
+[INFO ][2019-04-12 02:37:14][ResidenceFunctionsData:load:58]: ResidenceFunctionsData: Loaded: 8 functions.
+[INFO ][2019-04-12 02:37:14][ClanHallData:load:45]: ClanHallData: Succesfully loaded 37 Clan Halls.
+[INFO ][2019-04-12 02:37:14][ClanEntryManager:load:90]: ClanEntryManager: Loaded: 0 clan entry
+[INFO ][2019-04-12 02:37:14][ClanEntryManager:load:102]: ClanEntryManager: Loaded: 0 player in waiting list
+[INFO ][2019-04-12 02:37:14][ClanEntryManager:load:114]: ClanEntryManager: Loaded: 0 player application
+[INFO ][2019-04-12 02:37:14][GameServer:printSection:325]: ---------------------------------------------------------=[ Geodata ]
+[INFO ][2019-04-12 02:37:14][GeoEngine:<init>:35]: GeoEngine: Initializing...
+[INFO ][2019-04-12 02:37:14][GeoEngine:<init>:63]: GeoEngine: Loaded 0 geodata files.
+[INFO ][2019-04-12 02:37:14][GeoEngine:<init>:69]: GeoEngine: Forcing PathFinding setting to false.
+[INFO ][2019-04-12 02:37:14][GeoEngine:<init>:73]: GeoEngine: Forcing CoordSynchronize setting to -1.
+[INFO ][2019-04-12 02:37:14][GeoEngine:<init>:41]: GeoEnginePathfinding: Loaded 32 node buffers.
+[INFO ][2019-04-12 02:37:14][GameServer:printSection:325]: ------------------------------------------------------------=[ NPCs ]
+[INFO ][2019-04-12 02:37:15][NpcData:load:64]: NpcData: Loaded 5838 NPCs.
+[INFO ][2019-04-12 02:37:15][NpcData:load:69]: NpcData: Loaded 12 Custom NPCs.
+[INFO ][2019-04-12 02:37:15][ExtendDropData:load:60]: ExtendDropData: Loaded 1 ExtendDrop.
+[INFO ][2019-04-12 02:37:16][SpawnsData:load:52]: SpawnsData: Loaded: 27383 spawns
+[INFO ][2019-04-12 02:37:16][WalkingManager:load:69]: WalkingManager: Loaded 0 walking routes.
+[INFO ][2019-04-12 02:37:16][StaticObjectData:load:62]: StaticObjectData: Loaded 86 static object templates.
+[INFO ][2019-04-12 02:37:16][ItemAuctionManager:load:93]: ItemAuctionManager: Loaded 0 instance(s).
+[INFO ][2019-04-12 02:37:16][CastleManager:loadInstances:172]: CastleManager: Loaded: 5 castles.
+[INFO ][2019-04-12 02:37:16][SchemeBufferTable:<init>:98]: SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Queen Ant(29001) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Core(29006) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Orfen(29014) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Baium(29020) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Zaken(29022) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:62]: GrandBossManager: Antharas(29068) status is Alive
+[INFO ][2019-04-12 02:37:16][GrandBossManager:init:70]: GrandBossManager: Loaded 6 Instances.
+[INFO ][2019-04-12 02:37:16][GameServer:printSection:325]: --------------------------------------------------------=[ Instance ]
+[INFO ][2019-04-12 02:37:16][InstanceManager:load:75]: InstanceManager: Loaded 6 instance templates.
+[INFO ][2019-04-12 02:37:16][InstanceManager:load:79]: InstanceManager: Loaded instance reenter times for 0 players.
+[INFO ][2019-04-12 02:37:16][GameServer:printSection:325]: --------------------------------------------------------=[ Olympiad ]
+[INFO ][2019-04-12 02:37:16][Olympiad:load:144]: Olympiad: Failed to load data from database, trying to load from file.
+[INFO ][2019-04-12 02:37:16][Olympiad:load:215]: Olympiad: Loading....
+[INFO ][2019-04-12 02:37:16][Olympiad:load:217]: Olympiad: Currently in Olympiad Period
+[INFO ][2019-04-12 02:37:16][Olympiad:load:229]: Olympiad: 42322 minutes until period ends
+[INFO ][2019-04-12 02:37:16][Olympiad:load:234]: Olympiad: Next weekly change is in 10079 minutes
+[INFO ][2019-04-12 02:37:16][Olympiad:load:238]: Olympiad: Loaded 0 Nobles
+[INFO ][2019-04-12 02:37:16][Olympiad:updateCompStatus:340]: Olympiad: Competition Period Starts in 0 days, 17 hours and 23 mins.
+[INFO ][2019-04-12 02:37:16][Olympiad:updateCompStatus:342]: Olympiad: Event starts/started: Fri Apr 12 20:00:16 BRT 2019
+[INFO ][2019-04-12 02:37:16][Hero:init:135]: Hero System: Loaded 0 Heroes.
+[INFO ][2019-04-12 02:37:16][Hero:init:136]: Hero System: Loaded 0 all time Heroes.
+[INFO ][2019-04-12 02:37:16][GameServer:printSection:325]: -----------------------------------------------------------=[ Cache ]
+[INFO ][2019-04-12 02:37:16][HtmCache:reload:69]: Cache[HTML]: Running lazy cache
+[INFO ][2019-04-12 02:37:16][CrestTable:load:94]: CrestTable: Loaded 0 Crests.
+[INFO ][2019-04-12 02:37:16][TeleportersData:load:44]: TeleportersData: Loaded: 97 npc teleporters.
+[INFO ][2019-04-12 02:37:16][CursedWeaponsManager:load:74]: CursedWeaponsManager: Loaded: 2 cursed weapon(s).
+[INFO ][2019-04-12 02:37:16][TransformData:load:50]: TransformData: Loaded: 11 transform templates.
+[INFO ][2019-04-12 02:37:17][BotReportTable:loadReportedCharData:176]: BotReportTable: Loaded 0 bot reports
+[INFO ][2019-04-12 02:37:17][GameServer:printSection:325]: ---------------------------------------------------------=[ Scripts ]
+[INFO ][2019-04-12 02:37:17][AirShipManager:load:244]: AirShipManager: Loaded 0 private airships
+[INFO ][2019-04-12 02:37:17][ShuttleData:load:57]: ShuttleData: Loaded: 3 Shuttles.
+[INFO ][2019-04-12 02:37:17][GameServer:<init>:193]: GameServer: Loading server scripts:
+[INFO ][2019-04-12 02:37:17][GrandBossManager:setBossStatus:88]: GrandBossManager: Updated Zaken(29022) status to 0
+[INFO ][2019-04-12 02:37:17][SpawnsData:init:75]: SpawnsData: Initializing spawns...
+[INFO ][2019-04-12 02:37:26][DBSpawnManager:load:107]: DBSpawnManager: Loaded 141 Instances
+[INFO ][2019-04-12 02:37:26][DBSpawnManager:load:108]: DBSpawnManager: Scheduled 0 Instances
+[INFO ][2019-04-12 02:37:27][SpawnsData:init:81]: SpawnsData: All spawns has been initialized!
+[INFO ][2019-04-12 02:37:27][GameServer:printSection:325]: ----------------------------------------------------=[ Event Engine ]
+[INFO ][2019-04-12 02:37:27][ClanHallAuctionManager:onEventStart:45]: ClanHallAuctionManager: Clan Hall Auction has started!
+[INFO ][2019-04-12 02:37:27][BetweenConditionalScheduler:run:72]: Event ClanHallAuctionManager will resume because is within the event period
+[INFO ][2019-04-12 02:37:27][EventEngineData:parseEvent:137]: EventEngineData: ClanHallAuctionManager: Initialized
+[INFO ][2019-04-12 02:37:27][EventEngineData:parseEvent:137]: EventEngineData: DailyTaskManager: Initialized
+[INFO ][2019-04-12 02:37:27][VoteSystem:initialize:62]: VoteSystem: Disabled.
+[INFO ][2019-04-12 02:37:27][GameServer:printSection:325]: -----------------------------------------------------------=[ Siege ]
+[INFO ][2019-04-12 02:37:27][Siege:startAutoTask:737]: Siege of Gludio: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 02:37:27][Siege:startAutoTask:737]: Siege of Dion: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 02:37:27][Siege:startAutoTask:737]: Siege of Giran: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 02:37:27][Siege:startAutoTask:737]: Siege of Oren: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 02:37:27][Siege:startAutoTask:737]: Siege of Aden: Sun Apr 14 16:00:00 BRT 2019
+[INFO ][2019-04-12 02:37:27][SiegeScheduleData:load:40]: SiegeScheduleData: Loaded: 2 siege schedulers.
+[INFO ][2019-04-12 02:37:27][CastleManorManager:load:109]: Loaded 258 seeds.
+[INFO ][2019-04-12 02:37:27][CastleManorManager:loadDb:199]: CastleManorManager: Manor data loaded.
+[INFO ][2019-04-12 02:37:27][SiegeGuardManager:load:66]: SiegeGuardManager: Loaded 0 siege guards tickets.
+[INFO ][2019-04-12 02:37:27][QuestManager:report:98]: QuestManager: Loaded: 160 quests.
+[INFO ][2019-04-12 02:37:27][QuestManager:report:99]: QuestManager: Loaded: 86 scripts.
+[INFO ][2019-04-12 02:37:27][TaskManager:<init>:46]: TaskManager: Loaded: 4 Tasks.
+[INFO ][2019-04-12 02:37:27][MailManager:load:76]: MailManager: Loaded 0 messages.
+[INFO ][2019-04-12 02:37:27][PunishmentManager:load:65]: PunishmentManager: Loaded 0 active and 0 expired punishments.
+[INFO ][2019-04-12 02:37:27][GameServer:<init>:239]: IdFactory: Free ObjectID's remaining: 2147451557
+[INFO ][2019-04-12 02:37:27][OfflineTradersTable:restoreOfflineTraders:247]: OfflineTradersTable: Loading offline traders...
+[INFO ][2019-04-12 02:37:27][OfflineTradersTable:restoreOfflineTraders:358]: OfflineTradersTable: Loaded: 0 offline trader(s)
+[INFO ][2019-04-12 02:37:27][GameServer:<init>:264]: Started, using 582 of 4084 MB total memory
+[INFO ][2019-04-12 02:37:27][GameServer:<init>:265]: Geodata use 127 MB of memory
+[INFO ][2019-04-12 02:37:27][GameServer:<init>:266]: Maximum number of connected players is 20
+[INFO ][2019-04-12 02:37:27][GameServer:<init>:267]: Server loaded in 38 seconds
+[INFO ][2019-04-12 02:37:27][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 02:37:33][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 02:37:39][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014
+[INFO ][2019-04-12 02:37:45][AuthServerCommunication:connect:49]: Connecting to authserver on 127.0.0.1:9014

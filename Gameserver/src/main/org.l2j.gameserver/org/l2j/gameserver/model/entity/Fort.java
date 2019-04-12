@@ -334,6 +334,7 @@ public final class Fort extends AbstractResidence {
     }
 
     // This method loads fort
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     @Override
     protected void load() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
@@ -384,6 +385,7 @@ public final class Fort extends AbstractResidence {
     /**
      * Load All Functions
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void loadFunctions() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT * FROM fort_functions WHERE fort_id = ?")) {
@@ -403,6 +405,7 @@ public final class Fort extends AbstractResidence {
      *
      * @param functionType
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeFunction(int functionType) {
         _function.remove(functionType);
         try (Connection con = DatabaseFactory.getInstance().getConnection();
@@ -472,6 +475,7 @@ public final class Fort extends AbstractResidence {
     }
 
     // This method loads fort door upgrade data from database
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void loadDoorUpgrade() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT * FROM fort_doorupgrade WHERE fortId = ?")) {
@@ -486,6 +490,7 @@ public final class Fort extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeDoorUpgrade() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM fort_doorupgrade WHERE fortId = ?")) {
@@ -496,6 +501,7 @@ public final class Fort extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void saveDoorUpgrade(int doorId, int hp, int pDef, int mDef) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("INSERT INTO fort_doorupgrade (doorId, hp, pDef, mDef) VALUES (?,?,?,?)")) {
@@ -519,6 +525,7 @@ public final class Fort extends AbstractResidence {
             _lastOwnedTime.setTimeInMillis(0);
         }
 
+        //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE fort SET owner=?,lastOwnedTime=?,state=?,castleId=? WHERE id = ?")) {
             ps.setInt(1, clanId);
@@ -771,6 +778,7 @@ public final class Fort extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void initNpcs() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT * FROM fort_spawnlist WHERE fortId = ? AND spawnType = ?")) {
@@ -793,6 +801,7 @@ public final class Fort extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void initSiegeNpcs() {
         _siegeNpcs.clear();
         try (Connection con = DatabaseFactory.getInstance().getConnection();

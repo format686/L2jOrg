@@ -40,6 +40,7 @@ public class PlayerVariables extends AbstractVariables {
     public static final String DELUSION_RETURN = "DELUSION_RETURN";
     private static final Logger LOGGER = LoggerFactory.getLogger(PlayerVariables.class.getName());
     // SQL Queries.
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String SELECT_QUERY = "SELECT * FROM character_variables WHERE charId = ?";
     private static final String DELETE_QUERY = "DELETE FROM character_variables WHERE charId = ?";
     private static final String INSERT_QUERY = "INSERT INTO character_variables (charId, var, val) VALUES (?, ?, ?)";

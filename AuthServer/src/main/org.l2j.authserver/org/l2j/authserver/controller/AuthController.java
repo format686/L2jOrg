@@ -340,10 +340,9 @@ public class AuthController {
                     var client = iterator.next();
                     if(client.getConnectionStartTime() + LOGIN_TIMEOUT >= currentTimeMillis() || !client.isConnected()) {
                         iterator.remove();
+                        client.close(REASON_ACCESS_FAILED_TRYA1);
                     }
-                    client.close(REASON_ACCESS_FAILED_TRYA1);
                 }
-
                 if(connectedClients.isEmpty()) {
                     scheduledPurge.cancel(false);
                 }

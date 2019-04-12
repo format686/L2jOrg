@@ -29,6 +29,7 @@ import java.util.concurrent.ScheduledFuture;
  */
 public final class TaskManager {
     static final Logger LOGGER = LoggerFactory.getLogger(TaskManager.class.getName());
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     static final String[] SQL_STATEMENTS =
             {
                     "SELECT id,task,type,last_activation,param1,param2,param3 FROM global_tasks",

@@ -98,6 +98,7 @@ public class MacroList implements IRestorable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void registerMacroInDb(Macro macro) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("INSERT INTO character_macroses (charId,id,icon,name,descr,acronym,commands) values(?,?,?,?,?,?,?)")) {
@@ -138,6 +139,7 @@ public class MacroList implements IRestorable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     @Override
     public boolean restoreMe() {
         _macroses.clear();

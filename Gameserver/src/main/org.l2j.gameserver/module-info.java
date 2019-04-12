@@ -14,6 +14,7 @@ module org.l2j.gameserver {
 
     opens org.l2j.gameserver.settings to org.l2j.commons;
     opens org.l2j.gameserver.data.database.model to org.l2j.commons;
+    opens org.l2j.gameserver.communitybbs.BB to org.l2j.commons;
 
     exports org.l2j.gameserver.model.actor;
     exports org.l2j.gameserver.model.actor.appearance;

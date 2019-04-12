@@ -63,6 +63,7 @@ import java.util.stream.Collectors;
  *
  * @author Luis Arias
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class Quest extends AbstractScript implements IIdentifiable {
     public static final Logger LOGGER = LoggerFactory.getLogger(Quest.class.getName());
     private static final String DEFAULT_NO_QUEST_MSG = "<html><body>You are either not on a quest that involves this NPC, or you don't meet this NPC's minimum quest requirements.</body></html>";
@@ -111,6 +112,7 @@ public class Quest extends AbstractScript implements IIdentifiable {
      *
      * @param player the player who is entering the world
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public static void playerEnter(L2PcInstance player) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement invalidQuestData = con.prepareStatement("DELETE FROM character_quests WHERE charId = ? AND name = ?");
@@ -144,6 +146,7 @@ public class Quest extends AbstractScript implements IIdentifiable {
             }
 
             // Get list of quests owned by the player from the DB in order to add variables used in the quest.
+            //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
             try (PreparedStatement ps2 = con.prepareStatement("SELECT name, var, value FROM character_quests WHERE charId = ? AND var <> ?")) {
                 ps2.setInt(1, player.getObjectId());
                 ps2.setString(2, "<state>");
@@ -181,6 +184,7 @@ public class Quest extends AbstractScript implements IIdentifiable {
      * @param var   the name of the variable
      * @param value the value of the variable
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public static void createQuestVarInDb(QuestState qs, String var, String value) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("INSERT INTO character_quests (charId,name,var,value) VALUES (?,?,?,?) ON DUPLICATE KEY UPDATE value=?")) {
@@ -221,6 +225,7 @@ public class Quest extends AbstractScript implements IIdentifiable {
      * @param qs  the {@link QuestState} object whose variable to delete
      * @param var the name of the variable to delete
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public static void deleteQuestVarInDb(QuestState qs, String var) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("DELETE FROM character_quests WHERE charId=? AND name=? AND var=?")) {

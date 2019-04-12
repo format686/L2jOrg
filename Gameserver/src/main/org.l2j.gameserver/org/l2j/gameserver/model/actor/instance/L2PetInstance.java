@@ -55,6 +55,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.Future;
 
 
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class L2PetInstance extends L2Summon {
     protected static final Logger LOGGER_PET = LoggerFactory.getLogger(L2PetInstance.class.getName());
 
@@ -132,6 +133,7 @@ public class L2PetInstance extends L2Summon {
         return pet;
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static L2PetInstance restore(L2ItemInstance control, L2NpcTemplate template, L2PcInstance owner) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("SELECT item_obj_id, name, level, curHp, curMp, exp, sp, fed FROM pets WHERE item_obj_id=?")) {

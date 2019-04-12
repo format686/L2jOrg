@@ -32,6 +32,7 @@ public class BlockList {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static List<Integer> loadList(int ObjId) {
         final List<Integer> list = new ArrayList<>();
         try (Connection con = DatabaseFactory.getInstance().getConnection();
@@ -159,6 +160,7 @@ public class BlockList {
         OFFLINE_LIST.put(_owner.getObjectId(), _blockList);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void updateInDB(int targetId, boolean state) {
         try (Connection con = DatabaseFactory.getInstance().getConnection()) {
             if (state) // add

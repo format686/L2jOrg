@@ -866,6 +866,7 @@ public final class L2ItemInstance extends L2Object {
     /**
      * Remove the augmentation
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeAugmentation() {
         if (_augmentation == null) {
             return;
@@ -946,6 +947,7 @@ public final class L2ItemInstance extends L2Object {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void updateItemElements(Connection con) {
         try (PreparedStatement ps = con.prepareStatement("DELETE FROM item_elementals WHERE itemId = ?")) {
             ps.setInt(1, getObjectId());
@@ -958,6 +960,7 @@ public final class L2ItemInstance extends L2Object {
             return;
         }
 
+        //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
         try (PreparedStatement ps = con.prepareStatement("INSERT INTO item_elementals VALUES(?,?,?)")) {
             for (AttributeHolder attribute : _elementals.values()) {
                 ps.setInt(1, getObjectId());
@@ -1053,6 +1056,7 @@ public final class L2ItemInstance extends L2Object {
      *
      * @param type byte element to remove
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void clearAttribute(AttributeType type) {
         if ((_elementals == null) || (getAttribute(type) == null)) {
             return;
@@ -1072,6 +1076,7 @@ public final class L2ItemInstance extends L2Object {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void clearAllAttributes() {
         if (_elementals == null) {
             return;
@@ -1307,6 +1312,7 @@ public final class L2ItemInstance extends L2Object {
     /**
      * Insert the item in database
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void insertIntoDb() {
         if (_existsInDb || (getObjectId() == 0) || _wear) {
             return;
@@ -1347,6 +1353,7 @@ public final class L2ItemInstance extends L2Object {
     /**
      * Delete item from database
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeFromDb() {
         if (!_existsInDb || _wear) {
             return;
@@ -1736,6 +1743,7 @@ public final class L2ItemInstance extends L2Object {
         _ensoulSpecialOptions.values().forEach(this::applySpecialAbility);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeSpecialAbility(EnsoulOption option) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM item_special_abilities WHERE objectId = ? AND optionId = ?")) {
@@ -1777,6 +1785,7 @@ public final class L2ItemInstance extends L2Object {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void restoreSpecialAbilities() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT * FROM item_special_abilities WHERE objectId = ? ORDER BY position")) {
@@ -1805,6 +1814,7 @@ public final class L2ItemInstance extends L2Object {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void updateSpecialAbilities(Connection con) {
         try (PreparedStatement ps = con.prepareStatement("INSERT INTO item_special_abilities (`objectId`, `type`, `optionId`, `position`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE type = ?, optionId = ?, position = ?")) {
             ps.setInt(1, getObjectId());

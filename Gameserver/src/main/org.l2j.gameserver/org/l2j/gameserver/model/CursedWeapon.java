@@ -367,6 +367,7 @@ public class CursedWeapon implements INamable {
         CursedWeaponsManager.announce(sm);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void saveData() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement del = con.prepareStatement("DELETE FROM cursed_weapons WHERE itemId = ?");

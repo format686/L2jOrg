@@ -14017,7 +14017,7 @@ public final class NpcStringId {
     public static NpcStringId YOU_RE_NOT_THAT_BAD_NOW_IT_S_TIME_FOR_ME_TO_LIGHT_UP_THE_FIRE;
     @ClientString(id = 1120339, message = "$s1! You will turn to ashes in the agony of hungry flame.")
     public static NpcStringId S1_YOU_WILL_TURN_TO_ASHES_IN_THE_AGONY_OF_HUNGRY_FLAME;
-    @ClientString(id = 1120340, message = "Magic must be reсovered. Wait a bit.")
+    @ClientString(id = 1120340, message = "Magic must be recovered. Wait a bit.")
     public static NpcStringId MAGIC_MUST_BE_RE_OVERED_WAIT_A_BIT;
     @ClientString(id = 1120341, message = "You cannot cope with the fire energy! Come to me!")
     public static NpcStringId YOU_CANNOT_COPE_WITH_THE_FIRE_ENERGY_COME_TO_ME;

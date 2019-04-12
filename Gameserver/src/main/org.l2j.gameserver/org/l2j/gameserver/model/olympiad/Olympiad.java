@@ -33,6 +33,7 @@ import java.util.concurrent.ScheduledFuture;
 /**
  * @author godson
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class Olympiad extends ListenersContainer {
     public static final String OLYMPIAD_HTML_PATH = "data/html/olympiad/";
     public static final int DEFAULT_POINTS = Config.ALT_OLY_START_POINTS;

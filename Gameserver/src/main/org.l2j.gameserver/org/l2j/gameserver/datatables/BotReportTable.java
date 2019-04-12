@@ -61,6 +61,7 @@ public final class BotReportTable {
     private static final int COLUMN_BOT_ID = 1;
     private static final int COLUMN_REPORTER_ID = 2;
     private static final int COLUMN_REPORT_TIME = 3;
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String SQL_LOAD_REPORTED_CHAR_DATA = "SELECT * FROM bot_reported_char_data";
     private static final String SQL_INSERT_REPORTED_CHAR_DATA = "INSERT INTO bot_reported_char_data VALUES (?,?,?)";
     private static final String SQL_CLEAR_REPORTED_CHAR_DATA = "DELETE FROM bot_reported_char_data";

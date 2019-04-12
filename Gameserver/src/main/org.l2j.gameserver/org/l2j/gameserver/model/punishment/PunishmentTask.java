@@ -18,6 +18,7 @@ import java.util.concurrent.ScheduledFuture;
 /**
  * @author UnAfraid
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class PunishmentTask implements Runnable {
     protected static final Logger LOGGER = LoggerFactory.getLogger(PunishmentTask.class);
 

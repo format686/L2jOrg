@@ -44,6 +44,7 @@ public class Couple {
     public Couple(int coupleId) {
         _Id = coupleId;
 
+        //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT * FROM mods_wedding WHERE id = ?")) {
             ps.setInt(1, _Id);
@@ -78,6 +79,7 @@ public class Couple {
         _weddingDate = Calendar.getInstance();
         _weddingDate.setTimeInMillis(Calendar.getInstance().getTimeInMillis());
 
+        //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("INSERT INTO mods_wedding (id, player1Id, player2Id, married, affianceDate, weddingDate) VALUES (?, ?, ?, ?, ?, ?)")) {
             _Id = IdFactory.getInstance().getNextId();
@@ -107,6 +109,7 @@ public class Couple {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void divorce() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM mods_wedding WHERE id=?")) {

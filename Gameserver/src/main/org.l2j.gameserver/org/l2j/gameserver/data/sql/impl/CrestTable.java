@@ -129,6 +129,7 @@ public final class CrestTable {
      * @param crestType
      * @return {@code L2Crest} on success, {@code null} on failure.
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public L2Crest createCrest(byte[] data, L2Crest.CrestType crestType) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("INSERT INTO `crests`(`crest_id`, `data`, `type`) VALUES(?, ?, ?)")) {

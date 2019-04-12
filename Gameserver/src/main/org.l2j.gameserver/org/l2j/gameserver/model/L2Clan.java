@@ -100,6 +100,7 @@ public class L2Clan implements IIdentifiable, INamable {
     public static final int SUBUNIT_KNIGHT4 = 2002;
     private static final Logger LOGGER = LoggerFactory.getLogger(L2Clan.class);
     // SQL queries
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String INSERT_CLAN_DATA = "INSERT INTO clan_data (clan_id,clan_name,clan_level,hasCastle,blood_alliance_count,blood_oath_count,ally_id,ally_name,leader_id,crest_id,crest_large_id,ally_crest_id,new_leader_id) values (?,?,?,?,?,?,?,?,?,?,?,?,?)";
     private static final String SELECT_CLAN_DATA = "SELECT * FROM clan_data where clan_id=?";
     private static final int MAX_NOTICE_LENGTH = 8192;
@@ -689,6 +690,7 @@ public class L2Clan implements IIdentifiable, INamable {
     /**
      * Store current Bloood Alliances count in database.
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void updateBloodAllianceCountInDB() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE clan_data SET blood_alliance_count=? WHERE clan_id=?")) {
@@ -726,6 +728,7 @@ public class L2Clan implements IIdentifiable, INamable {
     /**
      * Store current Bloood Alliances count in database.
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void updateBloodOathCountInDB() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE clan_data SET blood_oath_count=? WHERE clan_id=?")) {
@@ -737,6 +740,7 @@ public class L2Clan implements IIdentifiable, INamable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void updateInDB() {
         // Update reputation
         try (Connection con = DatabaseFactory.getInstance().getConnection();
@@ -768,6 +772,7 @@ public class L2Clan implements IIdentifiable, INamable {
      * <li>Clan's id</li>
      * </ul>
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void updateClanInDB() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE clan_data SET leader_id=?,ally_id=?,ally_name=?,reputation_score=?,ally_penalty_expiry_time=?,ally_penalty_type=?,char_penalty_expiry_time=?,dissolving_expiry_time=?,new_leader_id=? WHERE clan_id=?")) {
@@ -829,6 +834,7 @@ public class L2Clan implements IIdentifiable, INamable {
      * @param clanJoinExpiryTime
      * @param clanCreateExpiryTime
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeMemberInDatabase(L2ClanMember member, long clanJoinExpiryTime, long clanCreateExpiryTime) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps1 = con.prepareStatement("UPDATE characters SET clanid=0, title=?, clan_join_expiry_time=?, clan_create_expiry_time=?, clan_privs=0, wantspeace=0, subpledge=0, lvl_joined_academy=0, apprentice=0, sponsor=0 WHERE charId=?");
@@ -912,6 +918,7 @@ public class L2Clan implements IIdentifiable, INamable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void restoreNotice() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT enabled,notice FROM clan_notices WHERE clan_id=?")) {
@@ -927,6 +934,7 @@ public class L2Clan implements IIdentifiable, INamable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void storeNotice(String notice, boolean enabled) {
         if (notice == null) {
             notice = "";
@@ -979,6 +987,7 @@ public class L2Clan implements IIdentifiable, INamable {
         storeNotice(notice, _noticeEnabled);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void restoreSkills() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT skill_id,skill_level,sub_pledge_id FROM clan_skills WHERE clan_id=?")) {
@@ -1059,6 +1068,7 @@ public class L2Clan implements IIdentifiable, INamable {
      * @param subType
      * @return
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public Skill addNewSkill(Skill newSkill, int subType) {
         Skill oldSkill = null;
         if (newSkill != null) {
@@ -1305,6 +1315,7 @@ public class L2Clan implements IIdentifiable, INamable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void restoreSubPledges() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT sub_pledge_id,name,leader_id FROM clan_subpledges WHERE clan_id=?")) {
@@ -1390,6 +1401,7 @@ public class L2Clan implements IIdentifiable, INamable {
             return null;
         }
 
+        //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("INSERT INTO clan_subpledges (clan_id,sub_pledge_id,name,leader_id) values (?,?,?,?)")) {
             ps.setInt(1, _clanId);
@@ -1454,6 +1466,7 @@ public class L2Clan implements IIdentifiable, INamable {
         return pledgeType;
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void updateSubPledgeInDB(int pledgeType) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE clan_subpledges SET leader_id=?, name=? WHERE clan_id=? AND sub_pledge_id=?")) {
@@ -1467,6 +1480,7 @@ public class L2Clan implements IIdentifiable, INamable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void restoreRankPrivs() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("SELECT privs,rank,party FROM clan_privs WHERE clan_id=?")) {
@@ -1506,6 +1520,7 @@ public class L2Clan implements IIdentifiable, INamable {
         if (_privs.get(rank) != null) {
             _privs.get(rank).setPrivs(privs);
 
+            //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
             try (Connection con = DatabaseFactory.getInstance().getConnection();
                  PreparedStatement ps = con.prepareStatement("INSERT INTO clan_privs (clan_id,rank,party,privs) VALUES (?,?,?,?) ON DUPLICATE KEY UPDATE privs = ?")) {
                 // Retrieve all skills of this L2PcInstance from the database
@@ -1533,6 +1548,7 @@ public class L2Clan implements IIdentifiable, INamable {
         } else {
             _privs.put(rank, new RankPrivs(rank, 0, privs));
 
+            //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
             try (Connection con = DatabaseFactory.getInstance().getConnection();
                  PreparedStatement ps = con.prepareStatement("INSERT INTO clan_privs (clan_id,rank,party,privs) VALUES (?,?,?,?)")) {
                 // Retrieve all skills of this L2PcInstance from the database
@@ -1621,6 +1637,7 @@ public class L2Clan implements IIdentifiable, INamable {
         return _auctionBiddedAt;
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void setAuctionBiddedAt(int id, boolean storeInDb) {
         _auctionBiddedAt = id;
 
@@ -1893,7 +1910,7 @@ public class L2Clan implements IIdentifiable, INamable {
 
         boolean increaseClanLevel = false;
 
-        // Such as https://l2wiki.com/classic/Clans_οΏ½_Clan_Level
+        // Such as https://l2wiki.com/classic/ClansClan_Level
         switch (_level) {
             case 0: {
                 // Upgrade to 1
@@ -1996,6 +2013,7 @@ public class L2Clan implements IIdentifiable, INamable {
         return true;
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void changeLevel(int level) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("UPDATE clan_data SET clan_level = ? WHERE clan_id = ?")) {
@@ -2028,6 +2046,7 @@ public class L2Clan implements IIdentifiable, INamable {
      *
      * @param crestId if 0, crest is removed, else new crest id is set and saved to database
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void changeClanCrest(int crestId) {
         if (_crestId != 0) {
             CrestTable.getInstance().removeCrest(getCrestId());
@@ -2055,6 +2074,7 @@ public class L2Clan implements IIdentifiable, INamable {
      * @param crestId      if 0, crest is removed, else new crest id is set and saved to database
      * @param onlyThisClan
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void changeAllyCrest(int crestId, boolean onlyThisClan) {
         String sqlStatement = "UPDATE clan_data SET ally_crest_id = ? WHERE clan_id = ?";
         int allyId = _clanId;
@@ -2095,6 +2115,7 @@ public class L2Clan implements IIdentifiable, INamable {
      *
      * @param crestId if 0, crest is removed, else new crest id is set and saved to database
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void changeLargeCrest(int crestId) {
         if (_crestLargeId != 0) {
             CrestTable.getInstance().removeCrest(getCrestLargeId());
@@ -2202,6 +2223,7 @@ public class L2Clan implements IIdentifiable, INamable {
         return L2World.getInstance().getPlayer(_newLeaderId);
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void setNewLeader(L2ClanMember member) {
         final L2PcInstance newLeader = member.getPlayerInstance();
         final L2ClanMember exMember = _leader;

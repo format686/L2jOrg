@@ -124,6 +124,7 @@ public abstract class AbstractResidence extends ListenersContainer implements IN
      *
      * @param func
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void addFunction(ResidenceFunction func) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("INSERT INTO residence_functions (id, level, expiration, residenceId) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE level = ?, expiration = ?")) {
@@ -150,6 +151,7 @@ public abstract class AbstractResidence extends ListenersContainer implements IN
      *
      * @param func
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeFunction(ResidenceFunction func) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM residence_functions WHERE residenceId = ? and id = ?")) {
@@ -167,6 +169,7 @@ public abstract class AbstractResidence extends ListenersContainer implements IN
     /**
      * Removes all functions
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeFunctions() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM residence_functions WHERE residenceId = ?")) {

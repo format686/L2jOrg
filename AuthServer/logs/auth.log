@@ -1,0 +1,912 @@
+[INFO ][2019-04-02 17:01:00][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-02 17:01:00][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-02 17:01:01][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-02 17:01:01][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[ERROR][2019-04-02 17:01:01][AuthServer:main:65]: Cannot find property file: config/database.properties
+java.lang.IllegalArgumentException: Cannot find property file: config/database.properties
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariConfig.loadProperties(HikariConfig.java:1070)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariConfig.<init>(HikariConfig.java:122)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+[INFO ][2019-04-03 16:03:53][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 16:03:53][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 16:03:54][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 16:03:54][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[ERROR][2019-04-03 16:03:54][AuthServer:main:65]: Cannot find property file: config/database.properties
+java.lang.IllegalArgumentException: Cannot find property file: config/database.properties
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariConfig.loadProperties(HikariConfig.java:1070)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariConfig.<init>(HikariConfig.java:122)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+[INFO ][2019-04-03 20:10:22][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 20:10:22][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:10:23][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:10:23][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[INFO ][2019-04-03 20:10:23][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-03 20:10:23][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2241)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[ERROR][2019-04-03 20:10:23][AuthServer:main:65]: Failed to initialize pool: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:597)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: java.sql.SQLException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	... 11 more
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2241)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[INFO ][2019-04-03 20:11:03][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 20:11:03][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:11:04][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:11:04][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[INFO ][2019-04-03 20:11:04][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-03 20:11:04][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2241)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[ERROR][2019-04-03 20:11:04][AuthServer:main:65]: Failed to initialize pool: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:597)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: java.sql.SQLException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	... 11 more
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value 'Hora oficial do Brasil' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2241)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[INFO ][2019-04-03 20:12:54][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 20:12:54][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:12:55][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:12:55][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[INFO ][2019-04-03 20:12:55][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-03 20:12:55][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: No timezone mapping entry for 'utc-3'
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: No timezone mapping entry for 'utc-3'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2255)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[ERROR][2019-04-03 20:12:55][AuthServer:main:65]: Failed to initialize pool: No timezone mapping entry for 'utc-3'
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: No timezone mapping entry for 'utc-3'
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:597)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: java.sql.SQLException: No timezone mapping entry for 'utc-3'
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	... 11 more
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: No timezone mapping entry for 'utc-3'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2255)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[INFO ][2019-04-03 20:13:17][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 20:13:17][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:13:17][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:13:17][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[INFO ][2019-04-03 20:13:18][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-03 20:13:18][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: No timezone mapping entry for 'utc'
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: No timezone mapping entry for 'utc'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2255)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[ERROR][2019-04-03 20:13:18][AuthServer:main:65]: Failed to initialize pool: No timezone mapping entry for 'utc'
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: No timezone mapping entry for 'utc'
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:597)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:576)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:34)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:60)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:43)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: java.sql.SQLException: No timezone mapping entry for 'utc'
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	... 11 more
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: No timezone mapping entry for 'utc'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2255)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2265)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1319)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:966)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 19 more
+[INFO ][2019-04-03 20:13:41][AuthController:<init>:62]: Loading Auth Controller...
+[INFO ][2019-04-03 20:13:41][BanManager:loadBanFile:43]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:13:42][AuthController:initializeScrambledKeys:84]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:13:42][GameServerManager:loadServerNames:53]: Loaded 127 server names
+[INFO ][2019-04-03 20:13:42][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 20:13:43][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 20:13:43][GameServerManager:loadRegisteredGameServers:64]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 20:13:43][GameServerManager:loadRSAKeys:76]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 20:13:43][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 20:13:43][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 20:24:51][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:24:51][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 20:24:52][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:24:52][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 20:24:52][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 20:24:52][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 20:24:52][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 20:24:52][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 20:24:52][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 20:24:52][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 20:54:31][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:54:31][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 20:54:32][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:54:32][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 20:54:32][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 20:54:33][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 20:54:33][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 20:54:33][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 20:54:33][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 20:54:33][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 20:54:34][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 20:54:34][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 20:54:34][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 20:54:34][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 20:58:19][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 20:58:19][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 20:58:20][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 20:58:20][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 20:58:20][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 20:58:21][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 20:58:21][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 20:58:21][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 20:58:21][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 20:58:21][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 20:58:21][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 20:58:21][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 20:58:21][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 20:58:21][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 21:04:36][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 21:04:36][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 21:04:36][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 21:04:37][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 21:04:37][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 21:04:37][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 21:04:37][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 21:04:37][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 21:04:37][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 21:04:37][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 21:04:41][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 21:04:41][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 21:04:41][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 21:04:41][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 21:11:26][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 21:11:26][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 21:11:27][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 21:11:27][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 21:11:27][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 21:11:27][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 21:11:28][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 21:11:28][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 21:11:28][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 21:11:28][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 21:11:32][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 21:11:32][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 21:11:32][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 21:11:32][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[WARN ][2019-04-03 21:17:59][HikariPool:run:787]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m277ms187탎90ns).
+[WARN ][2019-04-03 21:18:49][HikariPool:run:787]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s62ms759탎55ns).
+[WARN ][2019-04-03 21:21:52][HikariPool:run:787]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58s147ms855탎753ns).
+[WARN ][2019-04-03 21:22:56][HikariPool:run:787]: HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s234ms212탎626ns).
+[INFO ][2019-04-03 21:27:34][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 21:27:34][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 21:27:35][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 21:27:35][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 21:27:35][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 21:27:36][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 21:27:36][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 21:27:36][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 21:27:36][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 21:27:36][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 21:27:37][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 21:27:37][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 21:27:37][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 21:27:37][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 21:31:25][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 21:31:25][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 21:31:26][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 21:31:26][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 21:31:26][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 21:31:26][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 21:31:27][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 21:31:27][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 21:31:27][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 21:31:27][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 21:31:29][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 21:31:29][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 21:31:29][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 21:31:29][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 21:32:35][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-03 21:32:35][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-03 21:32:36][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-03 21:32:36][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-03 21:32:36][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-03 21:32:36][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-03 21:32:36][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-03 21:32:36][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-03 21:32:36][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-03 21:32:36][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-03 21:32:39][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-03 21:32:39][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-03 21:32:39][GameServerInfo:setHosts:65]: Address 192.168.0.104 Subnet 192.168.0.0/24
+[INFO ][2019-04-03 21:32:39][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-03 22:56:09][ServerClient:onDisconnection:120]: ServerInfo [1] Bartz: Connection Lost
+[INFO ][2019-04-03 22:56:09][ServerClient:onDisconnection:124]: Server [1] Bartz is now set as disconnect
+[INFO ][2019-04-09 14:54:59][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 14:54:59][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 14:55:00][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 14:55:00][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 14:55:00][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 14:55:01][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 14:58:58][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 14:58:58][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 14:58:58][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 14:58:58][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 14:58:58][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 14:58:59][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:01:03][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:01:03][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:01:03][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:01:03][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:01:03][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 15:01:03][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:02:59][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:02:59][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:03:00][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:03:00][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:03:00][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 15:03:00][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:03:35][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:03:35][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:03:35][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:03:35][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:03:35][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 15:03:35][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:04:05][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:04:05][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:04:06][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:04:06][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:04:06][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 15:04:06][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:04:24][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:04:24][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:04:24][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:04:25][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:04:25][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[ERROR][2019-04-09 15:04:25][HikariPool:throwPoolInitializationException:595]: HikariPool-1 - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: CLIENT_PLUGIN_AUTH is required
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:79)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:121)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:353)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:473)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:562)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari@3.3.1/com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.<init>(DatabaseFactory.java:20)
+	at org.l2j.commons/org.l2j.commons.database.DatabaseFactory.getInstance(DatabaseFactory.java:35)
+	at org.l2j.commons/org.l2j.commons.database.JDBCInvocation.invoke(JDBCInvocation.java:47)
+	at jdk.proxy1/com.sun.proxy.jdk.proxy1.$Proxy25.findAll(Unknown Source)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.loadRegisteredGameServers(GameServerManager.java:64)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.load(GameServerManager.java:42)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.<init>(GameServerManager.java:37)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager$Singleton.<clinit>(GameServerManager.java:138)
+	at org.l2j.authserver/org.l2j.authserver.controller.GameServerManager.getInstance(GameServerManager.java:130)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:36)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+Caused by: com.mysql.cj.exceptions.UnableToConnectException: CLIENT_PLUGIN_AUTH is required
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at mysql.connector.java@8.0.15/com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:205)
+	at mysql.connector.java@8.0.15/com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1449)
+	at mysql.connector.java@8.0.15/com.mysql.cj.NativeSession.connect(NativeSession.java:165)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at mysql.connector.java@8.0.15/com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 21 more
+[INFO ][2019-04-09 15:07:54][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:07:54][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:07:55][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:07:55][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:07:55][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-09 15:07:56][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-09 15:07:56][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-09 15:07:56][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[INFO ][2019-04-09 15:07:56][AuthServer:<init>:42]: Listening for GameServers on * : 9014
+[INFO ][2019-04-09 15:07:56][AuthServer:<init>:50]: Login Server ready on 0.0.0.0:2106
+[INFO ][2019-04-09 15:08:11][BanManager:loadBanFile:34]: Loaded 2 IP Bans.
+[INFO ][2019-04-09 15:08:11][AuthController:load:71]: Loading Auth Controller...
+[INFO ][2019-04-09 15:08:12][AuthController:initializeScrambledKeys:86]: Cached 10 KeyPairs for RSA communication
+[INFO ][2019-04-09 15:08:12][GameServerManager:loadServerNames:57]: Loaded 127 server names
+[INFO ][2019-04-09 15:08:12][HikariDataSource:<init>:80]: HikariPool-1 - Starting...
+[INFO ][2019-04-09 15:08:12][HikariDataSource:<init>:82]: HikariPool-1 - Start completed.
+[INFO ][2019-04-09 15:08:12][GameServerManager:loadRegisteredGameServers:68]: Loaded 1 registered Game Servers
+[INFO ][2019-04-09 15:08:12][GameServerManager:loadRSAKeys:80]: Cached 10 RSA keys for Game Server communication.
+[ERROR][2019-04-09 15:08:12][AuthServer:main:65]: Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.AsynchronousServerSocketChannelImpl.bind(AsynchronousServerSocketChannelImpl.java:164)
+	at java.base/java.nio.channels.AsynchronousServerSocketChannel.bind(AsynchronousServerSocketChannel.java:198)
+	at io.github.joealisson.mmocore@2.2.1-SNAPSHOT/io.github.joealisson.mmocore.ConnectionHandler.<init>(ConnectionHandler.java:35)
+	at io.github.joealisson.mmocore@2.2.1-SNAPSHOT/io.github.joealisson.mmocore.ConnectionBuilder.build(ConnectionBuilder.java:244)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.<init>(AuthServer.java:40)
+	at org.l2j.authserver/org.l2j.authserver.AuthServer.main(AuthServer.java:62)
+[INFO ][2019-04-09 15:16:18][GameServerInfo:setHosts:60]: Updated Gameserver [1] Bartz IP's:
+[INFO ][2019-04-09 15:16:18][GameServerInfo:setHosts:65]: Address 127.0.0.1 Subnet 127.0.0.0/8
+[INFO ][2019-04-09 15:16:18][GameServerInfo:setHosts:65]: Address 192.168.0.115 Subnet 192.168.0.0/24
+[INFO ][2019-04-09 15:16:18][GameServerInfo:setHosts:65]: Address 179.124.186.199 Subnet 0.0.0.0/0
+[INFO ][2019-04-09 15:17:05][ServerClient:onDisconnection:120]: ServerInfo [1] Bartz: Connection Lost
+[INFO ][2019-04-09 15:17:05][ServerClient:onDisconnection:124]: Server [1] Bartz is now set as disconnect

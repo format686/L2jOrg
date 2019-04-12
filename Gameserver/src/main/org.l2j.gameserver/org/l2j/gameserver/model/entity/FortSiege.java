@@ -35,6 +35,7 @@ public class FortSiege implements Siegable {
     protected static final Logger LOGGER = LoggerFactory.getLogger(FortSiege.class);
 
     // SQL
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String DELETE_FORT_SIEGECLANS_BY_CLAN_ID = "DELETE FROM fortsiege_clans WHERE fort_id = ? AND clan_id = ?";
     private static final String DELETE_FORT_SIEGECLANS = "DELETE FROM fortsiege_clans WHERE fort_id = ?";
     protected final Fort _fort;
@@ -276,6 +277,7 @@ public class FortSiege implements Siegable {
     /**
      * Clear all registered siege clans from database for fort
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void clearSiegeClan() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement ps = con.prepareStatement("DELETE FROM fortsiege_clans WHERE fort_id=?")) {
@@ -752,6 +754,7 @@ public class FortSiege implements Siegable {
      *
      * @param clan
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void saveSiegeClan(L2Clan clan) {
         if (getAttackerClans().size() >= FortSiegeManager.getInstance().getAttackerMaxClans()) {
             return;

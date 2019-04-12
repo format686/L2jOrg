@@ -95,6 +95,7 @@ public abstract class OlympiadGameNormal extends AbstractOlympiadGame {
         return null;
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     protected static void saveResults(Participant one, Participant two, int winner, long startTime, long fightTime, CompetitionType type) {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("INSERT INTO olympiad_fights (charOneId, charTwoId, charOneClass, charTwoClass, winner, start, time, classed) values(?,?,?,?,?,?,?,?)")) {

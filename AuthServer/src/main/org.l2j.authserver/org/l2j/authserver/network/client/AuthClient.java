@@ -115,6 +115,7 @@ public final class AuthClient extends Client<Connection<AuthClient>> {
         if(!isJoinedGameSever && nonNull(account)) {
             AuthController.getInstance().removeAuthedClient(account.getLogin());
         }
+
 	}
 
     public void addCharactersOnServer(int serverId, int players) {

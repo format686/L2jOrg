@@ -43,6 +43,7 @@ public class L2Mentee {
         load();
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void load() {
         final L2PcInstance player = getPlayerInstance();
         if (player == null) // Only if player is offline

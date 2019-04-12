@@ -18,6 +18,7 @@ public class AccountVariables extends AbstractVariables {
     private static final Logger LOGGER = LoggerFactory.getLogger(AccountVariables.class);
 
     // SQL Queries.
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String SELECT_QUERY = "SELECT * FROM account_gsdata WHERE account_name = ?";
     private static final String DELETE_QUERY = "DELETE FROM account_gsdata WHERE account_name = ?";
     private static final String INSERT_QUERY = "INSERT INTO account_gsdata (account_name, var, value) VALUES (?, ?, ?)";

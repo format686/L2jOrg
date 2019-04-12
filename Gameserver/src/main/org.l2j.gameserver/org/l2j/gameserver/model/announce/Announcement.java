@@ -10,6 +10,7 @@ import java.sql.*;
 /**
  * @author UnAfraid
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class Announcement implements IAnnouncement {
     protected static final Logger LOGGER = LoggerFactory.getLogger(Announcement.class);
 

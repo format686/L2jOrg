@@ -22,6 +22,7 @@ import java.util.Base64;
 /**
  * @author mrTJO
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public class SecondaryPasswordAuth {
     private static final String VAR_PWD = "secauth_pwd";
     private static final String VAR_WTE = "secauth_wte";

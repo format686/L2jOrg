@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: Home
+Build-Timestamp: 2019-04-02T16:22:28.682-0300
+Build-Revision: 1f53d63
+Build-Version: 1.0.0
+Build-Jdk: 11.0.2 (Oracle Corporation 11.0.2+9-LTS)
+Main-Class: org.l2j.gameserver.GameServer
+

@@ -503,6 +503,7 @@ public class Siege implements Siegable {
     /**
      * Clear all registered siege clans from database for castle
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void clearSiegeClan() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("DELETE FROM siege_clans WHERE castle_id=?")) {
@@ -527,6 +528,7 @@ public class Siege implements Siegable {
     /**
      * Clear all siege clans waiting for approval from database for castle
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void clearSiegeWaitingClan() {
         try (Connection con = DatabaseFactory.getInstance().getConnection();
              PreparedStatement statement = con.prepareStatement("DELETE FROM siege_clans WHERE castle_id=? and type = 2")) {
@@ -684,6 +686,7 @@ public class Siege implements Siegable {
      *
      * @param clanId The int of player's clan id
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeSiegeClan(int clanId) {
         if (clanId <= 0) {
             return;
@@ -1026,6 +1029,7 @@ public class Siege implements Siegable {
      * @param typeId               -1 = owner 0 = defender, 1 = attacker, 2 = defender waiting
      * @param isUpdateRegistration
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void saveSiegeClan(L2Clan clan, byte typeId, boolean isUpdateRegistration) {
         if (clan.getCastleId() > 0) {
             return;

@@ -405,6 +405,7 @@ public final class Castle extends AbstractResidence {
      *
      * @param functionType
      */
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     public void removeFunction(int functionType) {
         _function.remove(functionType);
         try (Connection con = DatabaseFactory.getInstance().getConnection();
@@ -472,6 +473,7 @@ public final class Castle extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeDoorUpgrade() {
         for (L2DoorInstance door : _doors) {
             door.getStat().setUpgradeHpRatio(1);
@@ -770,6 +772,7 @@ public final class Castle extends AbstractResidence {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private void removeTrapUpgrade() {
         for (TowerSpawn ts : SiegeManager.getInstance().getFlameTowers(getResidenceId())) {
             ts.setUpgradeLevel(0);

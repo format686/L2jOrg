@@ -23,6 +23,7 @@ import java.util.Calendar;
 
 public class OfflineTradersTable {
     // SQL DEFINITIONS
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String SAVE_OFFLINE_STATUS = "INSERT INTO character_offline_trade (`charId`,`time`,`type`,`title`) VALUES (?,?,?,?)";
     private static final String SAVE_ITEMS = "INSERT INTO character_offline_trade_items (`charId`,`item`,`count`,`price`) VALUES (?,?,?,?)";
     private static final String CLEAR_OFFLINE_TABLE = "DELETE FROM character_offline_trade";

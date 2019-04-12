@@ -18,6 +18,7 @@ public class ClanVariables extends AbstractVariables {
     private static final Logger LOGGER = LoggerFactory.getLogger(ClanVariables.class);
 
     // SQL Queries.
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String SELECT_QUERY = "SELECT * FROM clan_variables WHERE clanId = ?";
     private static final String DELETE_QUERY = "DELETE FROM clan_variables WHERE clanId = ?";
     private static final String INSERT_QUERY = "INSERT INTO clan_variables (clanId, var, val) VALUES (?, ?, ?)";

@@ -25,6 +25,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class SchemeBufferTable {
     private static final Logger LOGGER = LoggerFactory.getLogger(SchemeBufferTable.class);
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     private static final String LOAD_SCHEMES = "SELECT * FROM buffer_schemes";
     private static final String DELETE_SCHEMES = "TRUNCATE TABLE buffer_schemes";
     private static final String INSERT_SCHEME = "INSERT INTO buffer_schemes (object_id, scheme_name, skills) VALUES (?,?,?)";

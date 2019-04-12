@@ -144,6 +144,7 @@ public class ShortCuts implements IRestorable {
         }
     }
 
+    //TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
     @Override
     public boolean restoreMe() {
         _shortCuts.clear();

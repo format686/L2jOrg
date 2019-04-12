@@ -36,6 +36,7 @@ import java.util.stream.Collectors;
 /**
  * @author St3eT
  */
+//TODO: PADRONIZAÇÃO DAS CONSULTAS AO BD UTILIZANDO DAO
 public final class ClanHall extends AbstractResidence {
     // Other
     private static final String INSERT_CLANHALL = "INSERT INTO clanhall (id, ownerId, paidUntil) VALUES (?,?,?)";
